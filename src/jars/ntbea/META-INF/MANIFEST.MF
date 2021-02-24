@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: hyper.search.RunNTBEA
+Class-Path: ntbea.jar batik-util-1.8.jar MAP-Elites.jar batik-svggen-1.8
+ .jar core.jar batik-dom-1.8.jar svg.jar batik-xml-1.8.jar gson-2.8.5.ja
+ r itext.jar batik-awt-util-1.8.jar batik-ext-1.8.jar pdf.jar
+

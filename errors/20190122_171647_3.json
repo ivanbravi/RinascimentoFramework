@@ -1,0 +1,1234 @@
+{
+  "params": {
+    "playerCount": 4,
+    "suitCount": 5,
+    "cardSuitUsed": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "coinSuitUsed": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "coinCount": 7,
+    "goldCount": 5,
+    "maxCoins": 10,
+    "deckCount": 3,
+    "cardsOnTableCount": 4,
+    "noblesCount": 5,
+    "endGameScore": 15,
+    "maxReserveCards": 3,
+    "pickDifferentCount": 3,
+    "pickDifferentAmount": 1,
+    "pickSameAmount": 2,
+    "pickSameMinCoins": 4
+  },
+  "storePlaytrace": true,
+  "playtrace": [
+    "[Reserve Deck Card] P0\n\t[0]",
+    "[Pick Same Coins] P1\n\t[2, 0, 0, 0, 0]",
+    "[Reserve Deck Card] P2\n\t[0]",
+    "[Reserve Deck Card] P3\n\t[1]",
+    "[Reserve Board Card] P0\n\t[1,2]",
+    "[Pick Different Coins] P1\n\t[0, 1, 0, 1, 1]",
+    "[Pick Different Coins] P2\n\t[0, 1, 1, 1, 0]",
+    "[Pick Different Coins] P3\n\t[0, 0, 1, 1, 1]",
+    "[Pick Same Coins] P0\n\t[0, 0, 2, 0, 0]",
+    "[Pick Different Coins] P1\n\t[1, 1, 1, 0, 0]",
+    "[Reserve Deck Card] P2\n\t[2]",
+    "[Reserve Board Card] P3\n\t[1,0]",
+    "[Reserve Board Card] P0\n\t[1,2]",
+    "[Pick Same Coins] P1\n\t[0, 0, 0, 2, 0]",
+    "[Pick Same Coins] P2\n\t[2, 0, 0, 0, 0]",
+    "[Pick Same Coins] P3\n\t[0, 2, 0, 0, 0]",
+    "[Buy reserved card] P0\n\t[0]",
+    "[Pick Same Coins] P1\n\t[0, 0, -1, 0, 1]",
+    "[Buy Board Card] P2\n\t[0,1]",
+    "[Pick Different Coins] P3\n\t[1, 0, 1, 0, 1]",
+    "[Reserve Board Card] P0\n\t[2,1]",
+    "[Reserve Deck Card] P1\n\t[2]",
+    "[Reserve Board Card] P2\n\t[2,3]",
+    "[Reserve Deck Card] P3\n\t[1]",
+    "[Pick Same Coins] P0\n\t[0, 0, 2, 0, 0]",
+    "[Reserve Board Card] P1\n\t[2,2]",
+    "[Pick Different Coins] P2\n\t[0, 1, 1, 1, 0]",
+    "[Buy Board Card] P3\n\t[0,3]",
+    "[Buy Board Card] P0\n\t[0,0]",
+    "[Reserve Deck Card] P1\n\t[0]",
+    "[Pick Different Coins] P2\n\t[0, 1, 0, 1, 1]",
+    "[Buy Board Card] P3\n\t[0,3]",
+    "[Pick Same Coins] P0\n\t[0, 0, 0, 0, 2]",
+    "[Pick Same Coins] P1\n\t[-2, 0, 2, 0, 0]",
+    "[Pick Different Coins] P2\n\t[1, -1, -1, 1, 0]",
+    "[Pick Different Coins] P3\n\t[1, 1, 0, 1, 0]",
+    "[Pick Different Coins] P0\n\t[1, 1, 0, 0, 1]",
+    "[Buy reserved card] P1\n\t[2]",
+    "[Pick Different Coins] P2\n\t[0, 1, 0, 0, -1]",
+    "[Pick Same Coins] P3\n\t[0, 0, 2, 0, 0]",
+    "[Pick Different Coins] P0\n\t[0, 1, 1, 1, 0]",
+    "[Reserve Board Card] P1\n\t[2,1]",
+    "[Pick Different Coins] P2\n\t[-1, 0, 1, -1, 1]",
+    "[Pick Different Coins] P3\n\t[1, 0, 1, 1, 0]",
+    "[Buy Board Card] P0\n\t[0,0]",
+    "[Buy Board Card] P1\n\t[0,1]",
+    "[Pick Same Coins] P2\n\t[2, 0, 0, -1, -1]",
+    "[Pick Same Coins] P3\n\t[0, 0, 0, 0, 2]",
+    "[Pick Different Coins] P0\n\t[0, 0, 1, 1, 1]",
+    "[Pick Different Coins] P1\n\t[1, 0, 0, 1, 1]",
+    "[Buy Board Card] P2\n\t[0,2]",
+    "[Pick Different Coins] P3\n\t[0, 1, -1, 0, 0]",
+    "[Buy Board Card] P0\n\t[0,3]",
+    "[Buy Board Card] P1\n\t[0,3]",
+    "[Pick Different Coins] P2\n\t[0, 1, 1, 0, 1]",
+    "[Buy Board Card] P3\n\t[0,3]",
+    "[Buy Board Card] P0\n\t[0,3]",
+    "[Pick Same Coins] P1\n\t[2, 0, 0, 0, 0]",
+    "[Buy Board Card] P2\n\t[0,2]",
+    "[Pick Same Coins] P3\n\t[0, 0, 0, 2, 0]",
+    "[Pick Same Coins] P0\n\t[0, 2, 0, 0, 0]",
+    "[Pick Different Coins] P1\n\t[0, 1, 1, 1, 0]",
+    "[Buy Board Card] P2\n\t[0,3]",
+    "[Buy Board Card] P3\n\t[0,1]",
+    "[Buy Board Card] P0\n\t[0,3]",
+    "[Pick Different Coins] P1\n\t[1, 1, 0, 0, 0]",
+    "[Pick Different Coins] P2\n\t[1, 1, 0, 1, 0]",
+    "[Pick Different Coins] P3\n\t[0, 0, 0, 1, 1]",
+    "[Pick Different Coins] P0\n\t[0, 0, 0, 1, 1]",
+    "[Pick Different Coins] P1\n\t[0, -1, 0, 1, 0]",
+    "[Pick Different Coins] P2\n\t[0, 1, 0, 0, 0]"
+  ],
+  "playerStates": [
+    {
+      "playerId": 0,
+      "points": 0,
+      "gold": 0,
+      "coins": [
+        0,
+        2,
+        2,
+        1,
+        3
+      ],
+      "gems": [
+        1,
+        2,
+        1,
+        0,
+        2
+      ],
+      "reservedCardIds": [
+        0,
+        28,
+        15
+      ],
+      "reservedDeckIds": [
+        2,
+        1,
+        1
+      ],
+      "nobles": []
+    },
+    {
+      "playerId": 1,
+      "points": 0,
+      "gold": 1,
+      "coins": [
+        3,
+        2,
+        1,
+        2,
+        1
+      ],
+      "gems": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "reservedCardIds": [
+        8,
+        3,
+        13
+      ],
+      "reservedDeckIds": [
+        2,
+        2,
+        2
+      ],
+      "nobles": []
+    },
+    {
+      "playerId": 2,
+      "points": 1,
+      "gold": 1,
+      "coins": [
+        4,
+        2,
+        2,
+        1,
+        0
+      ],
+      "gems": [
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "reservedCardIds": [
+        27,
+        4,
+        11
+      ],
+      "reservedDeckIds": [
+        0,
+        2,
+        2
+      ],
+      "nobles": []
+    },
+    {
+      "playerId": 3,
+      "points": 0,
+      "gold": 0,
+      "coins": [
+        0,
+        1,
+        2,
+        3,
+        3
+      ],
+      "gems": [
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "reservedCardIds": [
+        1,
+        0,
+        10
+      ],
+      "reservedDeckIds": [
+        1,
+        1,
+        1
+      ],
+      "nobles": []
+    }
+  ],
+  "decks": [
+    {
+      "costs": [
+        [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          3,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "suits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "points": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "count": 40,
+      "cardSuitCount": 5
+    },
+    {
+      "costs": [
+        [
+          3,
+          2,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          4,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          3,
+          0
+        ],
+        [
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          2,
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          2,
+          3,
+          0,
+          3
+        ],
+        [
+          5,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          4,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          0,
+          0,
+          2
+        ],
+        [
+          4,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          5,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          2,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          0
+        ]
+      ],
+      "suits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "points": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      "count": 30,
+      "cardSuitCount": 5
+    },
+    {
+      "costs": [
+        [
+          3,
+          3,
+          5,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          3,
+          6,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          7,
+          3
+        ],
+        [
+          3,
+          0,
+          3,
+          3,
+          5
+        ],
+        [
+          7,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          3,
+          0,
+          0,
+          3
+        ],
+        [
+          7,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          3,
+          5,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          3,
+          0,
+          0,
+          3,
+          6
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          5,
+          3,
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          6,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          3,
+          0,
+          0
+        ],
+        [
+          3,
+          5,
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          6,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          3,
+          0
+        ]
+      ],
+      "suits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4
+      ],
+      "points": [
+        3,
+        4,
+        4,
+        5,
+        3,
+        4,
+        4,
+        5,
+        3,
+        4,
+        4,
+        5,
+        3,
+        4,
+        4,
+        5,
+        3,
+        4,
+        4,
+        5
+      ],
+      "count": 20,
+      "cardSuitCount": 5
+    }
+  ],
+  "deckStacks": [
+    {
+      "cardIDs": [
+        13,
+        11,
+        36,
+        5,
+        37,
+        25,
+        3,
+        16,
+        1,
+        6,
+        38,
+        14,
+        20,
+        31,
+        15,
+        26,
+        2,
+        21
+      ]
+    },
+    {
+      "cardIDs": [
+        24,
+        5,
+        2,
+        20,
+        7,
+        18,
+        16,
+        11,
+        27,
+        12,
+        21,
+        3,
+        4,
+        23,
+        26,
+        13,
+        14,
+        6,
+        19,
+        29,
+        8
+      ]
+    },
+    {
+      "cardIDs": [
+        9,
+        7,
+        18,
+        6,
+        10,
+        1,
+        15,
+        12,
+        19,
+        14
+      ]
+    }
+  ],
+  "nobles": [
+    {
+      "id": 4,
+      "cost": [
+        3,
+        0,
+        0,
+        3,
+        3
+      ],
+      "points": 3
+    },
+    {
+      "id": 0,
+      "cost": [
+        0,
+        0,
+        3,
+        3,
+        3
+      ],
+      "points": 3
+    },
+    {
+      "id": 3,
+      "cost": [
+        0,
+        3,
+        3,
+        3,
+        0
+      ],
+      "points": 3
+    },
+    {
+      "id": 2,
+      "cost": [
+        3,
+        3,
+        0,
+        0,
+        3
+      ],
+      "points": 3
+    },
+    {
+      "id": 1,
+      "cost": [
+        3,
+        3,
+        3,
+        0,
+        0
+      ],
+      "points": 3
+    }
+  ],
+  "isNobleTaken": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "board": [
+    [
+      19,
+      33,
+      23,
+      39
+    ],
+    [
+      9,
+      25,
+      17,
+      22
+    ],
+    [
+      2,
+      17,
+      16,
+      5
+    ],
+    null,
+    null
+  ],
+  "coinStacks": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "goldStack": 3,
+  "tick": 71,
+  "isGameOver": false
+}

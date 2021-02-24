@@ -1,0 +1,1 @@
+{"agents": [{"type": "EHB-simple-RHEA-poly,2-11", "params": [0, 2, 3, 0, 1, 1, 0, 2, 0, 1, 5, 4, 1, 4, 7, 3, 2, 1, 8, 3, 9, 2, 0, 2, 9], "comment": "ntbea:  5feat 10000b r36", "name": "poly_2^5"}, {"type": "RND"}, {"type": "RND"}, {"type": "RND"}]}

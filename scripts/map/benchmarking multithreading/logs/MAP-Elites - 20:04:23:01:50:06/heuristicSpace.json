@@ -1,0 +1,11 @@
+{
+  "creator": {
+    "layers": [
+      5,
+      15,
+      1
+    ],
+    "function": "TANH"
+  },
+  "size": 106
+}

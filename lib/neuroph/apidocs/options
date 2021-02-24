@@ -1,0 +1,24 @@
+-classpath
+'C:/Users/Zoran/.m2/repository/javax/visrec/visrec-api/1.0-SNAPSHOT/visrec-api-1.0-SNAPSHOT.jar;C:/Users/Zoran/.m2/repository/org/json/json/20160212/json-20160212.jar;C:/Users/Zoran/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar;C:/Users/Zoran/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar;C:/Users/Zoran/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar;C:/Users/Zoran/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/Zoran/Documents/NetBeansProjects/NeurophFrameworkRepo/NeurophFramework/neuroph/Core/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2019 <a href="http://neuroph.sourceforge.net/">Neuroph Project</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Zoran/Documents/NetBeansProjects/NeurophFrameworkRepo/NeurophFramework/neuroph/Core/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Core 2.96 API'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' 'C:/Users/Zoran/Documents/NetBeansProjects/NeurophFrameworkRepo/NeurophFramework/neuroph/Core/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Core 2.96 API'

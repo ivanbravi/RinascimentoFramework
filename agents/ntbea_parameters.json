@@ -1,0 +1,17 @@
+{
+  "agent/type": "SVB-SSPP-RHEA-nn,TANH,192,(5184),30,1,[1]-11",
+  "agent/space": "id",
+  "game/opponents": "agents/opponents.json",
+  "game/version": "assets/defaultx2/",
+  "game/simbudget": 1000,
+  "ntbea/1Tuple": true,
+  "ntbea/2Tuple": true,
+  "ntbea/3Tuple": false,
+  "ntbea/nTuple": true,
+  "ntbea/k": 1,
+  "ntbea/e": 0.7,
+  "ntbea/budget": 100,
+  "ntbea/truefitnessbudget": 1000,
+  "ntbea/printreport": false,
+  "ntbea/result": "r"
+}

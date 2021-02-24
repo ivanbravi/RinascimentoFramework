@@ -1,0 +1,13 @@
+{
+  "search/interactivesteps": "10",
+  "ui/progress/length": "40",
+  "ui/graphs/padding": "5",
+  "ui/graphs/y": "14",
+  "ui/graphs/x": "0",
+  "ui/graphs/size": "60",
+  "ui/graphs/columns": "3",
+  "ui/summary/x": "0",
+  "ui/summary/y": "5",
+  "ui/summary/height": "40",
+  "ui/summary/width": "200"
+}

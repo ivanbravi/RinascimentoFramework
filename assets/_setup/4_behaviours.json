@@ -1,0 +1,38 @@
+[
+  {
+    "code": "CardCount",
+    "name": "card count",
+    "min": 0,
+    "max": 40,
+    "breaks": 60,
+    "history": true,
+    "isMetric": true
+  },
+  {
+    "code": "Nobles",
+    "name": "nobles",
+    "min": 0,
+    "max": 4,
+    "breaks": 60,
+    "history": true,
+    "isMetric": true
+  },
+  {
+    "code": "TotalCoins",
+    "name": "total coins",
+    "min": 0,
+    "max": 120,
+    "breaks": 60,
+    "history": true,
+    "isMetric": true
+  },
+  {
+    "code": "ReservedCards",
+    "name": "reserved cards",
+    "min": 0,
+    "max": 30,
+    "breaks": 60,
+    "history": true,
+    "isMetric": true
+  }
+]
