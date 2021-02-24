@@ -1,0 +1,30 @@
+{
+  "playerCount": 4,
+  "suitCount": 5,
+  "cardSuitUsed": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "coinSuitUsed": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "coinCount": 7,
+  "goldCount": 5,
+  "maxCoins": 10,
+  "deckCount": 3,
+  "cardsOnTableCount": 4,
+  "noblesCount": 5,
+  "endGameScore": 15,
+  "maxReserveCards": 3,
+  "pickDifferentCount": 3,
+  "pickDifferentAmount": 1,
+  "pickSameAmount": 2,
+  "pickSameMinCoins": 4
+}

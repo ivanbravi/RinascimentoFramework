@@ -1,0 +1,23 @@
+{
+  "agents": [
+    {
+      "type": "RND"
+    },
+    {
+      "type": "RND"
+    },
+    {
+      "type": "RND"
+    },
+    {
+      "type": "META-RHEA",
+      "params": [
+        2,
+        1,
+        3,
+        3,
+        1
+      ]
+    }
+  ]
+}

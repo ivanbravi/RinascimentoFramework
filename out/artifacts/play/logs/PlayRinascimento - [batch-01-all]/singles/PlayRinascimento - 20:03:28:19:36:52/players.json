@@ -1,0 +1,116 @@
+[
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": false,
+    "sequenceLength": 3,
+    "evals": 200,
+    "flipAtLeastOneValue": false,
+    "mutationStyle": 1,
+    "opponentType": 1,
+    "opponentBudget": 0.005,
+    "espMutationProb": 0.8,
+    "gMean": 0.0,
+    "gStdDev": 1.0,
+    "rnd": {
+      "seed": 128630613232391,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 0,
+    "name": "EBH-simple-RHEA-poly,2_0",
+    "h": {
+      "h": {
+        "weights": [
+          0.0,
+          -0.19999999999999996,
+          -0.8,
+          -0.19999999999999996,
+          0.40000000000000013,
+          -0.3999999999999999,
+          -0.6,
+          -0.8,
+          0.6000000000000001,
+          -0.3999999999999999,
+          0.8,
+          -0.6,
+          -1.0,
+          -0.6,
+          0.8
+        ],
+        "featuresSize": 5,
+        "order": 2
+      },
+      "name": "LogTester",
+      "loggerName": "LogTester2415fc55",
+      "evl": {
+        "player": "",
+        "counters": {},
+        "maxEventId": 5,
+        "converter": {}
+      }
+    }
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 138860216042345,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 1,
+    "name": "RHEA5_1",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 132709263783316,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 2,
+    "name": "RHEA6_2",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 164435229953265,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 3,
+    "name": "RHEA7_3",
+    "h": {}
+  }
+]

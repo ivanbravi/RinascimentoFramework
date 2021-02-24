@@ -1,0 +1,54 @@
+[
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": false,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": false,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.01,
+    "espMutationProb": 0.8,
+    "gMean": 0.75,
+    "gStdDev": 2.0,
+    "rnd": {
+      "seed": 190931281666244,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 0,
+    "name": "EBH-simple-RHEA-linear_0",
+    "h": {
+      "h": {
+        "weights": [
+          0.20000000000000018,
+          0.20000000000000018,
+          -0.3999999999999999,
+          -0.6,
+          0.8
+        ],
+        "featuresSize": 5
+      },
+      "name": "LogTester",
+      "loggerName": "LogTester4fb64261",
+      "evl": {
+        "player": "",
+        "counters": {},
+        "maxEventId": 5,
+        "converter": {}
+      }
+    }
+  },
+  {
+    "playerId": 1,
+    "name": "SafeRandomPlayer_1"
+  },
+  {
+    "playerId": 2,
+    "name": "SafeRandomPlayer_2"
+  },
+  {
+    "playerId": 3,
+    "name": "SafeRandomPlayer_3"
+  }
+]

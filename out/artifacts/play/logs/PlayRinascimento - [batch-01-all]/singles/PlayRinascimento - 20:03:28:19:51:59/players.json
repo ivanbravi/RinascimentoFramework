@@ -1,0 +1,86 @@
+[
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 248224775481180,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 0,
+    "name": "RHEA16_0",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 227883831499666,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 1,
+    "name": "RHEA17_1",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 276479618604290,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 2,
+    "name": "RHEA18_2",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 144862535622672,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 3,
+    "name": "RHEA19_3",
+    "h": {}
+  }
+]

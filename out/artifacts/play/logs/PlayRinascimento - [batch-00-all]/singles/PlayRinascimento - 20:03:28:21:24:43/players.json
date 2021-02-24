@@ -1,0 +1,28 @@
+[
+  {
+    "exploration": 0.0,
+    "maxDepth": 1,
+    "opponentModel": 0,
+    "opponentBudgetRatio": 0.05,
+    "expansionProbability": 0.4,
+    "progressionSize": 1,
+    "epsilon": 1.0E-6,
+    "recommendationType": 2,
+    "rollWithOpponents": false,
+    "id": 0,
+    "name": "MCTS0_0",
+    "h": {}
+  },
+  {
+    "playerId": 1,
+    "name": "SafeRandomPlayer_1"
+  },
+  {
+    "playerId": 2,
+    "name": "SafeRandomPlayer_2"
+  },
+  {
+    "playerId": 3,
+    "name": "SafeRandomPlayer_3"
+  }
+]

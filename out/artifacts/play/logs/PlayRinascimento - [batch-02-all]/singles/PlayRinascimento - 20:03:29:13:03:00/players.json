@@ -1,0 +1,27 @@
+[
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": false,
+    "sequenceLength": 3,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 1,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.5,
+    "gMean": 0.1,
+    "gStdDev": 2.0,
+    "rnd": {
+      "seed": 254845621935505,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 0,
+    "name": "RHEA6_0",
+    "h": {}
+  },
+  {
+    "playerId": 1,
+    "name": "SafeRandomPlayer_1"
+  }
+]

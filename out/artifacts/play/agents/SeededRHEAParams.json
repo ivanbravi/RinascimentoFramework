@@ -1,0 +1,84 @@
+{
+  "params": [
+    {
+      "a": [
+        false,
+        true
+      ],
+      "name": "Flip at least one"
+    },
+    {
+      "a": [
+        0.01,
+        0.05,
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "name": "Mutation rate"
+    },
+    {
+      "a": [
+        1,
+        2,
+        3,
+        5,
+        10,
+        20
+      ],
+      "name": "Sequence Length"
+    },
+    {
+      "a": [
+        0,
+        1,
+        5,
+        10,
+        20,
+        50,
+        100,
+        200
+      ],
+      "name": "Number of Evaluations"
+    },
+    {
+      "a": [
+        false,
+        true
+      ],
+      "name": "Use Shift Buffer"
+    },
+    {
+      "a": [
+        0,
+        1,
+        2
+      ],
+      "name": "Opponent Model Type"
+    },
+    {
+      "a": [
+        0.001,
+        0.005,
+        0.01,
+        0.02,
+        0.05
+      ],
+      "name": "Opponent Budget Share"
+    }
+  ],
+  "dimensions": [
+    2,
+    10,
+    6,
+    8,
+    2,
+    3,
+    5
+  ]
+}

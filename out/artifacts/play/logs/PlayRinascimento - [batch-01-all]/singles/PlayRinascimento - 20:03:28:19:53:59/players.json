@@ -1,0 +1,79 @@
+[
+  {
+    "exploration": 0.0,
+    "maxDepth": 1,
+    "opponentModel": 0,
+    "opponentBudgetRatio": 0.05,
+    "expansionProbability": 0.4,
+    "progressionSize": 1,
+    "epsilon": 1.0E-6,
+    "recommendationType": 2,
+    "rollWithOpponents": false,
+    "id": 0,
+    "name": "MCTS0_0",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 1216647259791,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 1,
+    "name": "RHEA20_1",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 137594107830367,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 2,
+    "name": "RHEA21_2",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 186979652571132,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 3,
+    "name": "RHEA22_3",
+    "h": {}
+  }
+]

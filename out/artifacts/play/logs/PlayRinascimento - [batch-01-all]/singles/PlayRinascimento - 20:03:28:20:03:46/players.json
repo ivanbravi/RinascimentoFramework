@@ -1,0 +1,82 @@
+[
+  {
+    "random": {
+      "seed": 32747781279440,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "flipAtLeastOneValue": false,
+    "mutationRate": 0.9,
+    "sequenceLength": 2,
+    "nEvals": 200,
+    "useShiftBuffer": true,
+    "opponentModelType": 0,
+    "opponentBudgetShare": 0.05,
+    "id": 0,
+    "name": "SeededRHEA0_0",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 127436174797857,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 1,
+    "name": "RHEA27_1",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 29556397447329,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 2,
+    "name": "RHEA28_2",
+    "h": {}
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 118570227705336,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 3,
+    "name": "RHEA29_3",
+    "h": {}
+  }
+]

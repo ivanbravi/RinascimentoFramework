@@ -1,0 +1,4425 @@
+[
+  [
+    {
+      "playersStats": {
+        "SafeRandomPlayer_0:2": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0:2",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0:2",
+              "count": 1,
+              "history": [
+                41.0
+              ],
+              "avg": 41.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0:2",
+              "count": 1,
+              "history": [
+                14.0
+              ],
+              "avg": 14.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0:2",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0:2",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 14.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 4.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0:2",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0:2",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                41.0
+              ],
+              "avg": 41.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                19.0
+              ],
+              "avg": 19.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 19.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                52.0
+              ],
+              "avg": 52.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                14.0
+              ],
+              "avg": 14.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                6.0
+              ],
+              "avg": 6.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 14.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 11.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                55.0
+              ],
+              "avg": 55.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                16.0
+              ],
+              "avg": 16.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                6.0
+              ],
+              "avg": 6.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 18.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "RHEA0_2": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "RHEA0_2",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "RHEA0_2",
+              "count": 1,
+              "history": [
+                40.0
+              ],
+              "avg": 40.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "RHEA0_2",
+              "count": 1,
+              "history": [
+                14.0
+              ],
+              "avg": 14.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "RHEA0_2",
+              "count": 1,
+              "history": [
+                5.0
+              ],
+              "avg": 5.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "RHEA0_2",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 14.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "RHEA0_2",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "RHEA0_2",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                49.0
+              ],
+              "avg": 49.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                10.0
+              ],
+              "avg": 10.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 10.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 6.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "MCTS0_3": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "MCTS0_3",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "MCTS0_3",
+              "count": 1,
+              "history": [
+                42.0
+              ],
+              "avg": 42.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "MCTS0_3",
+              "count": 1,
+              "history": [
+                15.0
+              ],
+              "avg": 15.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "MCTS0_3",
+              "count": 1,
+              "history": [
+                5.0
+              ],
+              "avg": 5.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "MCTS0_3",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "MCTS0_3",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "MCTS0_3",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                50.0
+              ],
+              "avg": 50.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                11.0
+              ],
+              "avg": 11.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 11.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 6.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "SeededRHEA0_4": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "history": [
+                35.0
+              ],
+              "avg": 35.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "history": [
+                11.0
+              ],
+              "avg": 11.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "history": [
+                5.0
+              ],
+              "avg": 5.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 11.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SeededRHEA0_4",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                37.0
+              ],
+              "avg": 37.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                10.0
+              ],
+              "avg": 10.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                5.0
+              ],
+              "avg": 5.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 10.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 13.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "RHEA1_5": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "RHEA1_5",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "RHEA1_5",
+              "count": 1,
+              "history": [
+                36.0
+              ],
+              "avg": 36.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "RHEA1_5",
+              "count": 1,
+              "history": [
+                10.0
+              ],
+              "avg": 10.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "RHEA1_5",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "RHEA1_5",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 10.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 17.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "RHEA1_5",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "RHEA1_5",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                34.0
+              ],
+              "avg": 34.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                10.0
+              ],
+              "avg": 10.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 10.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 3.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "EBH-simple-RHEA-linear_6": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "history": [
+                27.0
+              ],
+              "avg": 27.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "history": [
+                23.0
+              ],
+              "avg": 23.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "history": [
+                2.0
+              ],
+              "avg": 2.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 23.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-simple-RHEA-linear_6",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                43.0
+              ],
+              "avg": 43.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                11.0
+              ],
+              "avg": 11.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 11.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 4.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "EBH-simple-RHEA-poly,2_7": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "history": [
+                21.0
+              ],
+              "avg": 21.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "history": [
+                21.0
+              ],
+              "avg": 21.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 21.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-simple-RHEA-poly,2_7",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                38.0
+              ],
+              "avg": 38.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                7.0
+              ],
+              "avg": 7.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 7.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 0.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                37.0
+              ],
+              "avg": 37.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                15.0
+              ],
+              "avg": 15.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 5.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "EBH-simple-RHEA-poly,3_8": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "history": [
+                27.0
+              ],
+              "avg": 27.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "history": [
+                27.0
+              ],
+              "avg": 27.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "history": [
+                2.0
+              ],
+              "avg": 2.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 27.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-simple-RHEA-poly,3_8",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                46.0
+              ],
+              "avg": 46.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                10.0
+              ],
+              "avg": 10.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 10.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 7.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "EBH-id-RHEA-linear_9": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "history": [
+                27.0
+              ],
+              "avg": 27.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "history": [
+                24.0
+              ],
+              "avg": 24.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 24.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-id-RHEA-linear_9",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                41.0
+              ],
+              "avg": 41.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                10.0
+              ],
+              "avg": 10.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                5.0
+              ],
+              "avg": 5.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 10.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 4.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "EBH-id-RHEA-poly,2_10": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "history": [
+                25.0
+              ],
+              "avg": 25.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "history": [
+                20.0
+              ],
+              "avg": 20.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "history": [
+                2.0
+              ],
+              "avg": 2.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 20.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-id-RHEA-poly,2_10",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "SafeRandomPlayer_0": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                43.0
+              ],
+              "avg": 43.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                11.0
+              ],
+              "avg": 11.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 11.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 7.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SafeRandomPlayer_0",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SafeRandomPlayer_0",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "EBH-id-RHEA-poly,3_11": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "history": [
+                44.0
+              ],
+              "avg": 44.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "history": [
+                15.0
+              ],
+              "avg": 15.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "history": [
+                2.0
+              ],
+              "avg": 2.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-id-RHEA-poly,3_11",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    }
+  ],
+  [
+    null,
+    {
+      "playersStats": {
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                42.0
+              ],
+              "avg": 42.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                17.0
+              ],
+              "avg": 17.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                5.0
+              ],
+              "avg": 5.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 17.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 3.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "OneStepLookAhead_1:2": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1:2",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1:2",
+              "count": 1,
+              "history": [
+                42.0
+              ],
+              "avg": 42.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1:2",
+              "count": 1,
+              "history": [
+                21.0
+              ],
+              "avg": 21.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1:2",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1:2",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 21.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1:2",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1:2",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "RHEA0_2": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "RHEA0_2",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "RHEA0_2",
+              "count": 1,
+              "history": [
+                56.0
+              ],
+              "avg": 56.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "RHEA0_2",
+              "count": 1,
+              "history": [
+                15.0
+              ],
+              "avg": 15.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "RHEA0_2",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "RHEA0_2",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 18.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "RHEA0_2",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "RHEA0_2",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                52.0
+              ],
+              "avg": 52.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                13.0
+              ],
+              "avg": 13.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 13.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 12.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "MCTS0_3": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "MCTS0_3",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "MCTS0_3",
+              "count": 1,
+              "history": [
+                41.0
+              ],
+              "avg": 41.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "MCTS0_3",
+              "count": 1,
+              "history": [
+                16.0
+              ],
+              "avg": 16.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "MCTS0_3",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "MCTS0_3",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "MCTS0_3",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "MCTS0_3",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                41.0
+              ],
+              "avg": 41.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                11.0
+              ],
+              "avg": 11.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 11.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 10.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "SeededRHEA0_4": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "history": [
+                46.0
+              ],
+              "avg": 46.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "history": [
+                14.0
+              ],
+              "avg": 14.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 14.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 18.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "SeededRHEA0_4",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "SeededRHEA0_4",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                44.0
+              ],
+              "avg": 44.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                9.0
+              ],
+              "avg": 9.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                5.0
+              ],
+              "avg": 5.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 9.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 4.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "RHEA1_5": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "RHEA1_5",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "RHEA1_5",
+              "count": 1,
+              "history": [
+                42.0
+              ],
+              "avg": 42.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "RHEA1_5",
+              "count": 1,
+              "history": [
+                14.0
+              ],
+              "avg": 14.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "RHEA1_5",
+              "count": 1,
+              "history": [
+                4.0
+              ],
+              "avg": 4.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "RHEA1_5",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 14.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "RHEA1_5",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "RHEA1_5",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                38.0
+              ],
+              "avg": 38.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                13.0
+              ],
+              "avg": 13.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                6.0
+              ],
+              "avg": 6.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 13.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 9.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "EBH-simple-RHEA-linear_6": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "history": [
+                30.0
+              ],
+              "avg": 30.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "history": [
+                19.0
+              ],
+              "avg": 19.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "history": [
+                2.0
+              ],
+              "avg": 2.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 19.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-simple-RHEA-linear_6",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-simple-RHEA-linear_6",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                41.0
+              ],
+              "avg": 41.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                12.0
+              ],
+              "avg": 12.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 12.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 8.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "EBH-simple-RHEA-poly,2_7": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "history": [
+                24.0
+              ],
+              "avg": 24.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "history": [
+                22.0
+              ],
+              "avg": 22.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "history": [
+                2.0
+              ],
+              "avg": 2.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 22.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-simple-RHEA-poly,2_7",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-simple-RHEA-poly,2_7",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                39.0
+              ],
+              "avg": 39.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                11.0
+              ],
+              "avg": 11.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 11.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 3.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                48.0
+              ],
+              "avg": 48.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                10.0
+              ],
+              "avg": 10.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 10.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 3.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "EBH-simple-RHEA-poly,3_8": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "history": [
+                27.0
+              ],
+              "avg": 27.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "history": [
+                24.0
+              ],
+              "avg": 24.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "history": [
+                2.0
+              ],
+              "avg": 2.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 24.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 17.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-simple-RHEA-poly,3_8",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-simple-RHEA-poly,3_8",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                41.0
+              ],
+              "avg": 41.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                10.0
+              ],
+              "avg": 10.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                2.0
+              ],
+              "avg": 2.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 10.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 3.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "EBH-id-RHEA-linear_9": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "history": [
+                30.0
+              ],
+              "avg": 30.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "history": [
+                20.0
+              ],
+              "avg": 20.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 20.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 19.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-id-RHEA-linear_9",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-id-RHEA-linear_9",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                42.0
+              ],
+              "avg": 42.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                9.0
+              ],
+              "avg": 9.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                3.0
+              ],
+              "avg": 3.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 9.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "EBH-id-RHEA-poly,2_10": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "history": [
+                35.0
+              ],
+              "avg": 35.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "history": [
+                20.0
+              ],
+              "avg": 20.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 20.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 15.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-id-RHEA-poly,2_10",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-id-RHEA-poly,2_10",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    },
+    {
+      "playersStats": {
+        "OneStepLookAhead_1": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                46.0
+              ],
+              "avg": 46.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                8.0
+              ],
+              "avg": 8.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                5.0
+              ],
+              "avg": 5.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 8.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 2.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "OneStepLookAhead_1",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "OneStepLookAhead_1",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        },
+        "EBH-id-RHEA-poly,3_11": {
+          "stats": {
+            "win ratio": {
+              "adapter": {},
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "history": [
+                1.0
+              ],
+              "avg": 1.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "tot coins": {
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "history": [
+                47.0
+              ],
+              "avg": 47.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "card count": {
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "history": [
+                16.0
+              ],
+              "avg": 16.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "reserved cards": {
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "history": [
+                2.0
+              ],
+              "avg": 2.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "nobles": {
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "history": [
+                0.0
+              ],
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            },
+            "Result": {
+              "adaptor": {},
+              "stats": {
+                "decks": {
+                  "count": 1,
+                  "avg": 16.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "position": {
+                  "count": 1,
+                  "avg": 1.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                },
+                "points": {
+                  "count": 1,
+                  "avg": 17.0,
+                  "sd": 0.0,
+                  "err": 0.0
+                }
+              },
+              "dataCount": 1,
+              "staleCount": 0,
+              "name": "EBH-id-RHEA-poly,3_11",
+              "count": 1,
+              "avg": 0.0,
+              "sd": 0.0,
+              "err": 0.0
+            }
+          },
+          "main": "Result",
+          "name": "EBH-id-RHEA-poly,3_11",
+          "count": 0,
+          "avg": 0.0,
+          "sd": 0.0,
+          "err": 0.0
+        }
+      }
+    }
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+]

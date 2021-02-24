@@ -1,0 +1,94 @@
+[
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": false,
+    "sequenceLength": 3,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 2,
+    "opponentType": 1,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.5,
+    "gMean": 0.3,
+    "gStdDev": 2.0,
+    "rnd": {
+      "seed": 146138802028933,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 0,
+    "name": "EBH-simple-RHEA-poly,3_0",
+    "h": {
+      "h": {
+        "weights": [
+          0.0,
+          0.20000000000000018,
+          0.40000000000000013,
+          0.20000000000000018,
+          0.40000000000000013,
+          0.40000000000000013,
+          -0.8,
+          -0.3999999999999999,
+          -0.6,
+          -0.6,
+          0.6000000000000001,
+          -0.6,
+          -0.3999999999999999,
+          0.8,
+          0.6000000000000001,
+          -0.8,
+          -0.3999999999999999,
+          0.40000000000000013,
+          0.8,
+          -0.3999999999999999,
+          -0.19999999999999996,
+          1.0,
+          -0.19999999999999996,
+          0.6000000000000001,
+          -0.3999999999999999,
+          -0.19999999999999996,
+          -0.8,
+          -0.19999999999999996,
+          0.0,
+          0.0,
+          -0.19999999999999996,
+          0.40000000000000013,
+          0.20000000000000018,
+          0.0,
+          0.8
+        ],
+        "featuresSize": 5,
+        "order": 3
+      },
+      "name": "LogTester",
+      "loggerName": "LogTesterb112b13",
+      "evl": {
+        "player": "",
+        "counters": {},
+        "maxEventId": 5,
+        "converter": {}
+      }
+    }
+  },
+  {
+    "solutionFitness": 0.0,
+    "useShiftBuffer": true,
+    "sequenceLength": 2,
+    "evals": 200,
+    "flipAtLeastOneValue": true,
+    "mutationStyle": 1,
+    "opponentType": 0,
+    "opponentBudget": 0.02,
+    "espMutationProb": 0.8,
+    "gMean": 0.1,
+    "gStdDev": 0.5,
+    "rnd": {
+      "seed": 113178360227667,
+      "nextNextGaussian": 0.0,
+      "haveNextNextGaussian": false
+    },
+    "id": 1,
+    "name": "RHEA12_1",
+    "h": {}
+  }
+]

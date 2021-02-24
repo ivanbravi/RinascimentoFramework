@@ -1,0 +1,14 @@
+[
+  "SafeRandomPlayer_0",
+  "OneStepLookAhead_1",
+  "RHEA0_2",
+  "MCTS0_3",
+  "SeededRHEA0_4",
+  "RHEA1_5",
+  "EBH-simple-RHEA-linear_6",
+  "EBH-simple-RHEA-poly,2_7",
+  "EBH-simple-RHEA-poly,3_8",
+  "EBH-id-RHEA-linear_9",
+  "EBH-id-RHEA-poly,2_10",
+  "EBH-id-RHEA-poly,3_11"
+]
