@@ -11,6 +11,12 @@ If you are interested in running some experiments don't hesitate to contact me a
 Bear in mind this is being developed as an accademic project just for research purposes.
 
 Wiki and docs coming soon(-ish)!
+***
+
+**WARNING!**
+Since April 2023 I've uploaded some datasets that require [LFS](https://git-lfs.com), make sure to install it following the relative [instructions](https://github.com/git-lfs/git-lfs?utm_source=gitlfs_site&utm_medium=installation_link&utm_campaign=gitlfs#installing).
+
+***
 
 ## Experiments
 
