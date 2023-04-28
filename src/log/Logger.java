@@ -76,6 +76,10 @@ public abstract class Logger implements LoggableReady {
 		}catch (IOException e){
 			e.printStackTrace();
 			return false;
+		}catch (Exception e){
+			System.out.println("Unable to save object:\n"+o.toString());
+			e.printStackTrace();
+			return false;
 		}
 		return true;
 	}

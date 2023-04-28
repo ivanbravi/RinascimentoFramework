@@ -2,7 +2,7 @@ package mapelites.pointbased;
 
 import game.heuristics.Heuristic;
 import game.heuristics.PointsHeuristic;
-import hyper.agents.factory.HeuristicAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
 import mapelites.PlayerSolution;
 import players.BasePlayerInterface;
 
@@ -11,10 +11,10 @@ import java.util.Arrays;
 public class PBAgentSolution extends PlayerSolution {
 
     private int[] agentConfig;
-    transient private HeuristicAgentFactory factory;
+    transient private HeuristicAgentFactorySpace factory;
     private String playerName;
 
-    public PBAgentSolution(String playerName, int[] agentConfig, HeuristicAgentFactory factory){
+    public PBAgentSolution(String playerName, int[] agentConfig, HeuristicAgentFactorySpace factory){
         this.playerName = playerName;
         this.agentConfig = agentConfig;
         this.factory = factory;

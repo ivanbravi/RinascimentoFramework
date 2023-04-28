@@ -39,7 +39,7 @@ public class RunNTBEA {
         		params.get("game/version").getAsString(),
 				params.get("agent/type").getAsString(),
 				params.get("agent/space").getAsString(),
-				params.get("game/simbudget").getAsInt(),
+				params.get("game/budget").getAsInt(),
 				params.get("game/opponents").getAsString()
 		);
 		RinascimentoAgentEvaluator problem = aeLoader.load();
@@ -50,7 +50,7 @@ public class RunNTBEA {
 
         NTupleBanditEA banditEA = new NTupleBanditEA().
 				setKExplore(params.get("ntbea/k").getAsDouble()).
-				setEpsilon(params.get("ntbea/e").getAsDouble());
+				setEpsilon(params.get("ntbea/eps").getAsDouble());
 
         NTupleSystem model = new NTupleSystem();
 

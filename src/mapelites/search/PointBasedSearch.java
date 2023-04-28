@@ -1,8 +1,8 @@
 package mapelites.search;
 
 import com.google.gson.JsonObject;
-import hyper.agents.factory.HeuristicAgentFactory;
-import hyper.agents.rhea.RHEAAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
+import hyper.agents.rhea.RHEAAgentFactorySpace;
 import hyper.utilities.CompleteAnnotatedSearchSpace;
 import log.LogGroup;
 import mapelites.FitnessFunction;
@@ -11,25 +11,23 @@ import mapelites.interfaces.SolutionSpace;
 import mapelites.pointbased.PBSolutionSpace;
 import mapelites.pointbased.PBSolutionSummary;
 
-import java.util.Arrays;
-
 public class PointBasedSearch extends SearchCreator {
 
     // Agent
     private String agentSearchSpace;
-    private HeuristicAgentFactory agentSpace;
+    private HeuristicAgentFactorySpace agentSpace;
 
     public void init(JsonObject mapArgs, LogGroup lg) {
         super.init(mapArgs,lg);
 
         agentSearchSpace = mapArgs.get("PB/agentspace").getAsString();
-        agentSpace = new RHEAAgentFactory();
+        agentSpace = new RHEAAgentFactorySpace();
         agentSpace.setSearchSpace(CompleteAnnotatedSearchSpace.load(agentSearchSpace));
 
         lg.add("agentSpace",agentSpace);
     }
 
-    public HeuristicAgentFactory getAgentSpace() {
+    public HeuristicAgentFactorySpace getAgentSpace() {
         return agentSpace;
     }
 

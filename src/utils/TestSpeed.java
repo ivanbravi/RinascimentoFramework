@@ -12,6 +12,8 @@ import java.util.ArrayList;
 
 public class TestSpeed {
 
+	private static boolean PRINT_INTERIM = false;
+
 	public static void main(String[] args){
 		Parameters p = Parameters.defaultParameters();
 		Engine e = Factory.createEngine(p,null);
@@ -23,7 +25,7 @@ public class TestSpeed {
 		int totalStates = 0;
 		long totalElapsed = 0;
 
-		int gameSimulations = 10000;
+		int gameSimulations = 100000;
 		StaleGameException.doSaveState = false;
 
 		int staleCounter = 0;
@@ -34,7 +36,7 @@ public class TestSpeed {
 
 			start = System.nanoTime();
 
-			System.out.println("Playing game #"+gameCounter);
+			printInterim("Playing game #"+gameCounter);
 			try {
 				while (!s.isGameOver()) {
 					r = e.stepPlay(s);
@@ -46,7 +48,7 @@ public class TestSpeed {
 
 			if (r.s== Result.STATE.STALE) {
 				staleCounter++;
-				//System.out.println(s.toString());
+				//printInterim(s.toString());
 			}
 			end=System.nanoTime();
 			elapsedMS = (end-start)/1000000.0;
@@ -56,8 +58,8 @@ public class TestSpeed {
 
 			avgSpeed.add(elapsedMS);
 
-			System.out.println("Game #"+gameCounter+" ["+r.s+"] in "+s.getTick());
-			System.out.println("\t\ttime: "+elapsedMS+" ms");
+			printInterim("Game #"+gameCounter+" ["+r.s+"] in "+s.getTick());
+			printInterim("\t\ttime: "+elapsedMS+" ms");
 		}
 
 		double avgSpeedMS = 0;
@@ -68,8 +70,14 @@ public class TestSpeed {
 
 		System.out.println("Stale games: "+staleCounter+"/"+gameSimulations);
 		System.out.println("Speed: "+((double)totalStates)/totalElapsed+"[states/ms]");
-		System.out.println("Avg Speed: "+avgSpeedMS);
+		System.out.println("Avg Speed: "+avgSpeedMS+"[ms]");
 
+	}
+
+	private static void printInterim(String message){
+		if(!PRINT_INTERIM)
+			return;
+		System.out.println(message);
 	}
 
 }

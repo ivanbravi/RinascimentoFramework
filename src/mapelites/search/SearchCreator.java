@@ -22,10 +22,10 @@ import mapelites.core.summary.SummariseSolution;
 import mapelites.interfaces.SolutionSpace;
 import players.BasePlayerInterface;
 import players.ai.explicit.RandomPlayer;
+import statistics.StatsLoader;
 import statistics.player.PlayerNumericalStatistic;
 import statistics.player.WinGameStats;
 import utils.AgentsConfig;
-
 import java.util.ArrayList;
 
 public abstract class SearchCreator {
@@ -88,7 +88,11 @@ public abstract class SearchCreator {
        supportNames = new String[b_size-metric_size];
 
        for(int i=0; i<b_size; i++){
-           PlayerNumericalStatistic stat = pickStatistic(br.getCode(i), br.getSaveHistory(i));
+           PlayerNumericalStatistic stat = StatsLoader.plugStatistic(
+                   playerName,
+                   br.getCode(i),
+                   br.getSaveHistory(i),
+                   dispatcher);
            if(br.getIsMetric(i)) {
                featuresStats[bIndex] = stat;
                statsBinning[bIndex] = new LinearBinning(br.getMin(i), br.getMax(i), br.getBreaks(i));
@@ -98,33 +102,8 @@ public abstract class SearchCreator {
                supportStats[i-bIndex] = stat;
                supportNames[i-bIndex] = br.getName(i);
            }
-           if (stat instanceof LoggingStatistic) {
-               LoggingStatistic ls = (LoggingStatistic) stat;
-               dispatcher.addLogger(ls.getPlayerLoggerName(playerName), ls.getLoggerInstance(playerName));
-           }
        }
 
-    }
-
-    private PlayerNumericalStatistic pickStatistic(String code, boolean keepHistory){
-        PlayerNumericalStatistic stat;
-        switch (code){
-                case "CardCount": stat = new CardCount();break;
-                case "Nobles": stat = new Nobles();break;
-                case "TotalCoins": stat = new TotalCoins();break;
-                case "ReservedCards": stat = new ReservedCards();break;
-                case "CardBoughtDeck": stat = new CardBoughtDeck();break;
-                case "CardCost": stat = new CardCost();break;
-                case "GameDuration": stat = new GameDuration();break;
-                case "Points": stat = new Points(); break;
-            default: stat = null;
-        }
-
-        if(keepHistory){
-            stat = (PlayerNumericalStatistic) stat.keepHistory();
-        }
-
-        return stat;
     }
 
     public Search create(){

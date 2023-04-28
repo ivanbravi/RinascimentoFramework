@@ -31,7 +31,7 @@ public class EventBasedSearch extends PointBasedSearch {
         converterType = mapArgs.get("EB/converter").getAsString();
 
         setConverter(LoadSearchSpace.loadConverter(converterType));
-        h = (new LoadSearchSpace()).decodeWeightedHeuristic(heuristicType, getConverter().idCount());
+        h = LoadSearchSpace.decodeWeightedHeuristic(heuristicType, getConverter().idCount());
 
         lg.add("heuristicSpace",h);
     }

@@ -23,13 +23,13 @@ public class StateFeatureBasedSearch extends PointBasedSearch {
 	public void init(JsonObject mapArgs, LogGroup lg) {
 		super.init(mapArgs,lg);
 
-		// heuristic  [linear poly,2 poly,3 nn,TANH,5 nn,TANH,18,5,2]
 		// vectoriser [S, P, SP, SPP, SSPP]
+		// heuristic  [linear poly,2 poly,3 nn,TANH,5 nn,TANH,18,5,2]
 		heuristicType = mapArgs.get("SB/heuristic").getAsString();
 		vectoriserType = mapArgs.get("SB/vectoriser").getAsString();
 
 		v = LoadSearchSpace.decodeVectoriser(vectoriserType, Parameters.load(this.gameVersion));
-		h = (new LoadSearchSpace()).decodeWeightedHeuristic(heuristicType, v.size());
+		h = LoadSearchSpace.decodeWeightedHeuristic(heuristicType, v.size());
 
 		lg.add("heuristicSpace",h);
 	}

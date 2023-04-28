@@ -1,0 +1,20 @@
+[
+  {
+    "code": "CardCount",
+    "name": "card count",
+    "min": 0,
+    "max": 40,
+    "breaks": 8,
+    "history": true,
+    "isMetric": true
+  },
+  {
+    "code": "TotalCoins",
+    "name": "total coins",
+    "min": 0,
+    "max": 120,
+    "breaks": 8,
+    "history": true,
+    "isMetric": true
+  }
+]

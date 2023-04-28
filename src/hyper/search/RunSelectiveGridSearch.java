@@ -5,10 +5,10 @@ import game.adapters.WonAdapter;
 import game.budget.ActionsBudget;
 import game.heuristics.PointsHeuristic;
 import hyper.agents.factory.AgentFactorySpace;
-import hyper.agents.factory.HeuristicAgentFactory;
-import hyper.agents.mcts.MCTSAgentFactory;
-import hyper.agents.rhea.RHEAAgentFactory;
-import hyper.agents.seededrhea.SeededRHEAAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
+import hyper.agents.mcts.MCTSAgentFactorySpace;
+import hyper.agents.rhea.RHEAAgentFactorySpace;
+import hyper.agents.seededrhea.SeededRHEAAgentFactorySpace;
 import hyper.environment.RinascimentoAgentEvaluator;
 import hyper.utilities.CompleteAnnotatedSearchSpace;
 import players.BasePlayerInterface;
@@ -88,13 +88,13 @@ public class RunSelectiveGridSearch {
 
 	}
 
-	private static HeuristicAgentFactory loadProblem(String agentType){
+	private static HeuristicAgentFactorySpace loadProblem(String agentType){
 		if(agentType.equals("RHEA")){
-			return new RHEAAgentFactory();
+			return new RHEAAgentFactorySpace();
 		}else if(agentType.equals("SeededRHEA")){
-			return new SeededRHEAAgentFactory();
+			return new SeededRHEAAgentFactorySpace();
 		}else if(agentType.equals("MCTS")){
-			return new MCTSAgentFactory();
+			return new MCTSAgentFactorySpace();
 		}
 		return null;
 	}

@@ -2,7 +2,9 @@ package log;
 
 import utils.Pair;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class LogGroup {
 
@@ -19,6 +21,10 @@ public class LogGroup {
 	public void add(LogGroup g){
 		if(g!=null)
 			groups.add(g);
+	}
+
+	public String folderPath(){
+		return this.folder;
 	}
 
 	public void add(Logger l){
@@ -54,5 +60,13 @@ public class LogGroup {
 		return r;
 	}
 
+	public static LogGroup getGroupWithDatedFolder(String name){
+		return new LogGroup(name+" - "+
+				(new SimpleDateFormat("yy-MM-dd-HH-mm-ss")).format(new Date())+"/");
+	}
+
+	public static LogGroup getGroupWithFolder(String name){
+		return new LogGroup(name+"/");
+	}
 
 }

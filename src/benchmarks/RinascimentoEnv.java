@@ -33,6 +33,13 @@ public class RinascimentoEnv {
 	State startingState;
 	GameStats stats;
 
+	public RinascimentoEnv(Parameters parameters){
+		this.parameters = parameters;
+		engine = Engine.defaultEngine();
+		startingState = Factory.createState(parameters, engine);
+		setTHREADS(THREADS);
+	}
+
 	public RinascimentoEnv(String paramFile){
 		parameters = Parameters.load(paramFile);
 		engine = Engine.defaultEngine();

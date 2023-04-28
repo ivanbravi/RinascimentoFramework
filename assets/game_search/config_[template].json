@@ -1,0 +1,89 @@
+{
+  "NTBEA": "HERE BELOW THE NTBEA PARAMETERS",
+  "ntbea/budget": 10000,
+  "ntbea/k": 1,
+  "ntbea/eps": 0.7,
+  "ntbea/checks": 10,
+
+  "RINASCIMENTO": "HERE BELOW THE RINASCIMENTO PARAMETERS",
+  "game/space": "assets/RinascimentoParamsTight.json",
+  "game/space/reduction/rate": 1.0,
+  "game/space/reduction/around": "assets/defaultx2/",
+  "game/threads": 4,
+  "game/budget": 1000,
+
+  "PLAYER SAMPLER": "HERE BELOW THE PLAYER SAMPLER PARAMETERS",
+  "fitness/player_sampler": "database",
+  "fitness/player_sampler/options": ["base","database", "double"],
+  "fitness/player_sampler/base/type": "RHEA",
+  "fitness/player_sampler/base/type/options": ["RHEA", "EHB-any", "RND", "Random", "EHB-id-RHEA-linear-11"],
+  "fitness/player_sampler/base/config": [0,2,3,1,1,1,2,0,1,2],
+  "fitness/player_sampler/base/eb/algorithm": "RHEA",
+  "fitness/player_sampler/base/eb/weights": [],
+  "fitness/player_sampler/base/eb/heuristic": "linear",
+  "fitness/player_sampler/base/eb/converter": "id",
+  "fitness/player_sampler/double/type": "RHEA",
+  "fitness/player_sampler/double/type/options": ["RHEA", "EHB-any", "RND", "Random", "EHB-id-RHEA-linear-11"],
+  "fitness/player_sampler/double/config": [0,2,3,1,1,1,2,0,1,2],
+  "fitness/player_sampler/double/eb/algorithm": "RHEA",
+  "fitness/player_sampler/double/eb/weights": [],
+  "fitness/player_sampler/double/eb/heuristic": "linear",
+  "fitness/player_sampler/double/eb/converter": "id",
+  "fitness/player_sampler/database/file":"agents/db/eb_id_db.json",
+  "fitness/player_sampler/database/sampling":"random",
+  "fitness/player_sampler/database/sampling/options":["random", "linear"],
+
+  "OPPONENT FACTORY": "HERE BELOW THE OPPONENT FACTORY PARAMETERS",
+  "fitness/opponent/type": "RHEA",
+  "fitness/opponent/type/options": ["RHEA", "EHB-any", "RND", "Random"],
+  "fitness/opponent/config": [0,2,3,1,1,1,2,0,1,2],
+  "fitness/opponent/eb/algorithm": "RHEA",
+  "fitness/opponent/eb/weights": [],
+  "fitness/opponent/eb/heuristic": "linear",
+  "fitness/opponent/eb/converter": "id",
+
+  "FITNESS": "HERE BELOW THE GENERIC FITNESS PARAMETERS",
+  "fitness/samples": 10,
+  "fitness/repeats": 100,
+  "fitness/true/samples": 10,
+  "fitness/true/repeats": 1000,
+  "fitness/performance" : "win",
+  "fitness/performance/options" : ["win","loss","tie","stale","win_tie","loss_tie","tie_stale","win_tie_stale","loss_tie_stale"],
+  "fitness/stats": ["CardCount","TotalCoins"],
+
+  "GAMEPLAY FITNESS": "HERE BELOW THE GAMEPLAY FITNESS PARAMETERS",
+  "fitness/gameplay": "matrix",
+  "fitness/gameplay/options": ["2Player", "matrix", "2PlayerSplit"],
+  "fitness/gameplay/matrix/similarity": "divergence",
+  "fitness/gameplay/matrix/similarity/options": ["divergence","difference"],
+  "fitness/gameplay/matrix/similarity/divergence/smoothing": 0.0001,
+  "fitness/gameplay/matrix/metrics": "assets/game_search/behaviours.json",
+  "fitness/gameplay/matrix/target": "assets/game_search/grid.json",
+  "fitness/gameplay/matrix/filters": [],
+  "fitness/gameplay/matrix/filters/options": [
+    {
+      "type": "mean",
+      "size": 1
+    },{
+      "type": "median",
+      "size": 1
+    },{
+      "type": "normaliser"
+    },{
+      "type": "weightedmean",
+      "size": 1
+    },{
+      "type": "filler",
+      "filter": {
+        "type": "mean",
+        "size": 1
+      },
+      "decay": 0.8
+    }
+  ],
+
+  "GENOTYPE FITNESS": "HERE BELOW THE GENOTYPE EVALUATOR PARAMETERS",
+  "fitness/genotype/type": "Manhattan",
+  "fitness/genotype/type/options": ["Manhattan", "Chebyshev", "None"],
+  "fitness/genotype/reference": "assets/defaultx2/"
+}

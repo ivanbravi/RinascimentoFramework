@@ -43,8 +43,7 @@ public class LoadAgentEvaluator {
 		RinascimentoAgentEvaluator.VERBOSE = false;
 		RinascimentoEnv.VERBOSE = true;
 
-		LoadSearchSpace ssLoader = new LoadSearchSpace();
-		agentFactory = ssLoader.loadFactorySpace(agentType,agentParametersFile, Parameters.load(gameVersion));
+		agentFactory = LoadSearchSpace.loadFactorySpace(agentType,agentParametersFile, Parameters.load(gameVersion));
 
 		RinascimentoEventDispatcher logger = new RinascimentoEventDispatcher();
 

@@ -1,10 +1,12 @@
 package game.action;
 
 import game.state.State;
+import utils.profiling.Profiler;
 
 public abstract class  PlayableAction implements Action {
 
 	public static boolean isVerbose = false;
+	public static Profiler profiler;
 
 	protected int playerId;
 
@@ -12,7 +14,13 @@ public abstract class  PlayableAction implements Action {
 		this.playerId = playerId;
 	}
 
+	public static void attatchProfiler(Profiler p){
+		profiler = p;
+	}
+
 	public boolean perform(State gs){
+		if(profiler != null)
+			profiler.actionPerformed();
 		gs.addActionPerformed(this);
 		return true;
 	}

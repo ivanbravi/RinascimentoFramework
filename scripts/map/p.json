@@ -1,0 +1,16 @@
+{
+  "search/bootiterations": 2000,
+  "search/totaliterations": 10000,
+  "search/type": "EB",
+  "search/resampling": "100",
+  "search/threads": "8",
+  "search/behaviours": "assets/_setup/good_b.json",
+  "game/version": "assets/1C2W2P/",
+  "game/opponentfile": "agents/agents.json",
+  "game/opponentindex": "0",
+  "PB/agentspace": "agents/RHEAParams.json",
+  "EB/heuristic": "linear",
+  "EB/converter": "id",
+  "SB/heuristic": "linear",
+  "SB/vectoriser": "SSPP"
+}

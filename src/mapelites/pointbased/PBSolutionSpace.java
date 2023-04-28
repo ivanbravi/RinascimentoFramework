@@ -1,6 +1,6 @@
 package mapelites.pointbased;
 
-import hyper.agents.factory.HeuristicAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
 import mapelites.interfaces.Solution;
 import org.jetbrains.annotations.NotNull;
 import java.util.Arrays;
@@ -9,9 +9,9 @@ import java.util.Random;
 public class PBSolutionSpace implements mapelites.interfaces.SolutionSpace {
     private String agentName;
     private Random rnd = new Random();
-    private HeuristicAgentFactory agentSpace;
+    private HeuristicAgentFactorySpace agentSpace;
 
-    public PBSolutionSpace(HeuristicAgentFactory agentSpace){
+    public PBSolutionSpace(HeuristicAgentFactorySpace agentSpace){
         this.agentSpace = agentSpace;
     }
 

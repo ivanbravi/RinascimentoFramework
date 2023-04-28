@@ -55,8 +55,17 @@ MAP_BEHAVIOURS_V = 'behaviours'
 MAP_FITNESS = "fitness"
 MAP_HP = "hyperparameters"
 MAP_WEIGHTS = "weights"
+MAP_CONFIG = 'agentConfig'
 
 MAP_GRAPH_SCALE=6
+
+def quiet():
+	global DEBUG
+	DEBUG = False
+
+def verbose():
+	global DEBUG
+	DEBUG = True
 
 def d_print(t):
 	if(DEBUG): print(t)	
@@ -179,7 +188,7 @@ class MAPElitesSpaceLoader:
 				behaviour_data.columns = behaviour_columns_names
 				support_data.columns = support_columns_names
 				
-				agent_columns = ['agentConfig']
+				agent_columns = [MAP_CONFIG]
 				if 'weights' in agent_df.columns:
 					agent_columns.append('weights')
 

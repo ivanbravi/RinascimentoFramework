@@ -97,6 +97,7 @@ def run_analysis(game,opponent,agents,space_names,single_export, samples = 30, p
 
 	if AN_SINGLE not in partial:
 		single_export = [False for _ in range(spaces_count)]
+		print(partial)
 
 	print("LOADING SPACES (EXPORTING:"+str(single_export)+")")
 	spaces = __load_spaces(space_dirs, space_names, single_export, samples, out, show_arrows=show_arrows)

@@ -1,6 +1,0 @@
-[
-  "[game version: assets/defaultx2/]",
-  "[opponent: SafeRandomPlayer]",
-  "[agent space: agents/RHEAParams.json]",
-  "[heuristic type: nn,TANH,5,15,1]"
-]

@@ -54,7 +54,7 @@ public class Distance {
 		return d;
 	}
 
-	public static double eucledean(int[] a, int[] b){
+	public static double euclidean(int[] a, int[] b){
 		double d = 0;
 
 		if(!isSafe(a,b))
@@ -67,7 +67,7 @@ public class Distance {
 		return Math.sqrt(d);
 	}
 
-	public static double eucledean(double[] a, double[] b){
+	public static double euclidean(double[] a, double[] b){
 		double d = 0;
 
 		if(!isSafe(a,b))
@@ -108,13 +108,13 @@ public class Distance {
 	public static void main(String[] args){
 		Logger.print(
 		        manhattan(new int[]{1,2},new int[]{2,1}),
-				eucledean(new int[]{1,2},new int[]{2,1}),
+				euclidean(new int[]{1,2},new int[]{2,1}),
 				manhattan(new double[]{1,2},new double[]{2,1}),
-				eucledean(new double[]{1,2},new double[]{2,1}),
+				euclidean(new double[]{1,2},new double[]{2,1}),
 				manhattan(new int[]{1,1},new int[]{2,1}),
-				eucledean(new int[]{1,1},new int[]{2,1}),
+				euclidean(new int[]{1,1},new int[]{2,1}),
 				manhattan(new double[]{1,1},new double[]{2,1}),
-				eucledean(new double[]{1,1},new double[]{2,1})
+				euclidean(new double[]{1,1},new double[]{2,1})
 		);
 	}
 

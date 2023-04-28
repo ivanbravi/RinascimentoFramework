@@ -3,13 +3,15 @@ import numpy as np
 import matplotlib.pylab as plt
 from matplotlib.colors import LinearSegmentedColormap
 
-agents = ["BMRH*","MCTS*","SRH*","BMRH**","l-5f","p2-5f","p3-5f","l-18f","p2-18f","p3-18f"]
+agents = ["BMRH*","BMRH**","EF-hc-linear","EF-hc-poly,2",
+"EF-id-linear","EF-id-poly,2","SF-linear","SF-nn10%-12N","SF-nn10%-1N",
+"SF-nn5%-12N","SF-nn5%-1N","SF-nn1%-12N","SF-nn1%-1N"]
 opponents = ["RND","3xRND","delta","BMRH*","3xBMRH*","delta"]
 
-vs_rnd =   [0.963,	0.965,	0.791,	0.947 ,	0.985 ,	0.984,	0.982,	0.986,	0.986,	0.964]
-vs_3rnd =  [0.864,	0.902,	0.474,	0.821,	0.986,	0.959,	0.971,	0.98,	0.98,	0.926]
-vs_bmrh =  [0.498,	0.488,	0.143,	0.545,	0.536,	0.516,	0.528,	0.548,	0.600 ,	0.538]
-vs_3bmrh = [0.257,	0.236,	0.012,	0.227,	0.444,	0.375,	0.388,	0.458,	0.437,	0.306]
+vs_rnd =   [0.9598,	0.9475,	0.9823,	0.9839,	0.9857,	0.9854,	0.9407,	0.954,	0.9521,	0.9322,	0.9566,	0.8729,	0.9531]
+vs_3rnd =  [0.8796,	0.8067,	0.9797,	0.9628,	0.973,	0.9696,	0.3785,	0.6619,	0.8496,	0.6982,	0.8464,	0.8327,	0.7638]
+vs_bmrh =  [0.4951, 0.5356, 0.5405, 0.5141, 0.5361, 0.5983, 0.3155, 0.4658, 0.4606, 0.4387, 0.424 , 0.3388, 0.3841]
+vs_3bmrh = [0.2519,	0.2244,	0.4414,	0.363,	0.4386,	0.4135,	0.0257,	0.0811,	0.1692,	0.0932,	0.1095,	0.1114,	0.0983]
 
 
 data = np.array([
@@ -25,14 +27,17 @@ data = np.multiply(data, 100)
 
 colorbar_ticks = np.multiply([0, 0.5, 1],100)
 
-cdict = {'red':   [(0.0,  1.0, 1.0),
-                   (1.0,  1.0, 1.0)],
+cdict = {'red':    [(0.0,  0.0, 0.0),
+					(0.5,  1.0, 1.0),
+					(1.0,  1.0, 1.0),],
 
-         'green': [(0.0,  1.0, 1.0),
-                   (1.0,  0.0, 0.0)],
+         'green':  [(0.0,  1.0, 1.0),
+         			(0.5,  1.0, 1.0),
+                    (1.0,  0.0, 0.0)],
 
-         'blue':  [(0.0,  1.0, 1.0),         			
-                   (1.0,  0.0, 0.0)]}
+         'blue':   [(0.0,  0.0, 0.0),    
+         			(0.5,  1.0, 1.0),     			
+                    (1.0,  0.0, 0.0)]}
 
 red_white_green = LinearSegmentedColormap('White', cdict)
 plt.register_cmap(cmap=red_white_green)
@@ -44,8 +49,9 @@ plt.figure(figsize=(10,4))
 
 delta1 = np.subtract(vs_rnd,vs_3rnd)
 delta2 = np.subtract(vs_bmrh,vs_3bmrh)
-vmin = min(min(abs(delta2)),min(abs(delta2)))*100
-vmax = max(max(abs(delta2)),max(abs(delta2)))*100
+delta = delta2
+vmin = min(min(abs(delta)),min(abs(delta)))*100
+vmax = max(max(abs(delta)),max(abs(delta)))*100
 
 print(vmin)
 print(vmax)

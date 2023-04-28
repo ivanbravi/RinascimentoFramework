@@ -33,7 +33,7 @@ public class RoundRobinTournament {
 
 	private static String agents = "agents/archive.json";
 	private static String gameVersion = "assets/defaultx2/";
-	private static int gameSamples = 10;
+	private static int gameSamples = 1;
 	private static int threads = 5;
 	private static boolean partial = false;
 	private static boolean rowSelection = false;
@@ -42,13 +42,18 @@ public class RoundRobinTournament {
 
 	public static void main(String[] args){
 		if(TEST)
-			// agents/archive.json assets/defaultx2/ 10 1 1:1 1
-			args = new String[]{agents,
-					gameVersion,
-					gameSamples+"",
-					threads+"",
-					"111111111111", //"1:2",
-					"111111111111"
+//			// agents/archive.json assets/defaultx2/ 10 1 1:1 1
+//			args = new String[]{agents,
+//					gameVersion,
+//					gameSamples+"",
+//					threads+"",
+//					"111111111111", //"1:2",
+//					"111111111111"
+			args = new String[]{
+					"agents/journal.json",
+					"assets/defaultx2/",
+					"1",
+					"3"
 			};
 
 		if(args.length < 2){
@@ -75,6 +80,10 @@ public class RoundRobinTournament {
 		AgentsConfig playerData = AgentsConfig.readJson(agents);
 		BasePlayerInterface[] players = PlayRinascimento.decodePlayers(playerData, Parameters.load(gameVersion));
 		lg.add("players description", players);
+
+		if(!(args.length >4)){
+			incremental = new boolean[players.length];
+		}
 
 		RinascimentoEventDispatcher logger = new RinascimentoEventDispatcher();
 

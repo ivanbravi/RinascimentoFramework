@@ -1,0 +1,13 @@
+{
+  "type/options": ["ellipse", "gaussian"],
+  "type": "ellipse",
+  "ellipse/center": [25.542856,21.599998],
+  "ellipse/rx": 6.3705955,
+  "ellipse/ry": 15.558502,
+  "ellipse/angle": -0.77001464,
+  "ellipse/size": 3,
+  "gaussian/mean": [0.0,0.0],
+  "gaussian/varX": 0.0,
+  "gaussian/varY": 0.0,
+  "gaussian/covXY": 0.0
+}

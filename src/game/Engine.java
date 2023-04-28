@@ -30,7 +30,6 @@ import game.state.State;
 import players.GeneralPlayerInterface;
 import players.BasePlayerInterface;
 import players.ai.explicit.ExplicitPlayerInterface;
-import utils.profiling.CountersProfiler;
 import utils.profiling.Profiler;
 
 import java.util.ArrayList;
@@ -62,6 +61,7 @@ public class Engine {
 	public static void attatchProfiler(Profiler p){
 		profiler = p;
 		State.attatchProfiler(p);
+		PlayableAction.attatchProfiler(p);
 	}
 
 	@Override
@@ -253,7 +253,7 @@ public class Engine {
 		s.tick();
 		passiveRules(s);
 		gameOverCheck(s);
-		profiler.stateAdvance();
+		profiler.stateEngineAdvanced();
 		return true;
 	}
 

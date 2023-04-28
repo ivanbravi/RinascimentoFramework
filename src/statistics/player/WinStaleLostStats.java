@@ -6,7 +6,7 @@ import game.AbstractGameState;
 
 public class WinStaleLostStats extends PlayerNumericalStatistic {
 
-	WonStaleLossAdapter adapter;
+	transient WonStaleLossAdapter adapter;
 
 	public WinStaleLostStats(WonStaleLossAdapter adapter){
 		super();this.adapter = adapter;

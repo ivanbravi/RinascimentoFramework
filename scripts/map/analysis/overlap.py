@@ -76,7 +76,7 @@ class MAPElitesOverlap:
 		for bb in self.shared_projections_2D():
 			plot_path = coverage_dir+prefix+str(bb)+"."+file_format
 
-			dd = [space.from_behaviour_to_index(b) for b in self.shared_metrics]
+			dd = [space.from_behaviour_to_index(b) for b in bb]
 			m = self.coverage(bb)
 
 			n_ticks = 10
@@ -122,7 +122,7 @@ class MAPElitesOverlap:
 		for bb in self.shared_projections_2D():
 			plot_path = variation_dir+prefix+str(bb)
 
-			dd = [space.from_behaviour_to_index(b) for b in self.shared_metrics]
+			dd = [space.from_behaviour_to_index(b) for b in bb]
 			m = self.variation(bb)
 
 			n_ticks = 10
@@ -138,7 +138,7 @@ class MAPElitesOverlap:
 			cbar = plot.collections[0].colorbar
 
 			cbar.set_ticks([-1, -0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75, 1])
-			cbar.set_ticklabels([str(-1)+" "*7+self.space2.name, -0.75, -0.5, -0.25, "same", 0.25, 0.5, 0.75, str(1)+" "*7+self.space1.name])
+			cbar.set_ticklabels([str(-1)+" "*7+self.space1.name, -0.75, -0.5, -0.25, "same", 0.25, 0.5, 0.75, str(1)+" "*7+self.space2.name])
 			
 			plot.set_xticklabels(x_formatter.labels(),x_formatter.labels_style())
 			plot.set_yticklabels(y_formatter.labels(),y_formatter.labels_style())
@@ -172,7 +172,7 @@ class MAPElitesOverlap:
 		flat_m1[m1_nan_mask] = 0.0
 		flat_m2[m2_nan_mask] = 0.0
 
-		delta = flat_m1-flat_m2
+		delta = flat_m2-flat_m1
 		delta[m12_nan_mask] = np.nan
 
 		return delta

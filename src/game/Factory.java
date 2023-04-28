@@ -9,6 +9,7 @@ import generators.nobles.SplendorNoblesGenerator;
 import players.BasePlayerInterface;
 import players.ai.explicit.RandomPlayer;
 
+import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,10 +25,14 @@ public class Factory {
 		for(int i=0; i<Math.max(params.playerCount,players.size()); i++){
 			if(i<players.size()){
 				try {
-					playerInstances[i] = (BasePlayerInterface) players.get(i).getConstructor().newInstance((Object) null);
+					Constructor playerConstructor = players.get(i).getConstructor();
+					playerInstances[i] = (BasePlayerInterface) playerConstructor.newInstance();
 					System.out.println("Loaded player: "+ players.get(i).getName());
-				}catch (Exception e){
-					System.out.println("Too many players! Player"+players.get(i).getName()+" will NOT play.");
+				}catch (ArrayIndexOutOfBoundsException e){
+					System.out.println("TOO MANY PLAYERS! Player "+players.get(i).getName()+" will NOT play.");
+				}
+				catch (Exception e){
+					System.out.println("Player "+players.get(i).getName()+" will NOT play.["+e.getMessage()+"]");
 				}
 			}else{
 				System.out.println("Not enough players: creating random player");

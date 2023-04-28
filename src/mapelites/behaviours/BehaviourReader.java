@@ -2,6 +2,8 @@ package mapelites.behaviours;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
+import mapelites.core.binning.Binning;
+import mapelites.core.binning.LinearBinning;
 import utils.loaders.EasyJSON;
 
 import java.io.BufferedReader;
@@ -20,6 +22,22 @@ public class BehaviourReader {
 			if(getIsMetric(i))
 				metricsCount++;
 
+	}
+
+	public static double[] getAxis(Binning bin){
+		double[] values = new double[bin.binCount()];
+		for(int i=0; i<values.length; i++)
+			values[i] = bin.marker(i);
+		return values;
+	}
+
+	public LinearBinning[] getLinearBins(){
+		LinearBinning[] bins = new LinearBinning[size()];
+		for(int i=0; i<size(); i++){
+			if(getIsMetric(i))
+				bins[i] = new LinearBinning(getMin(i),getMax(i),getBreaks(i));
+		}
+		return bins;
 	}
 
 	public int size(){

@@ -1,0 +1,45 @@
+{
+  "NTBEA": "HERE BELOW THE NTBEA PARAMETERS",
+  "ntbea/budget": 1000,
+  "ntbea/k": 1,
+  "ntbea/eps": 0.7,
+  "ntbea/checks": 100,
+
+  "RINASCIMENTO": "HERE BELOW THE RINASCIMENTO PARAMETERS",
+  "game/space": "assets/RinascimentoParamsTight.json",
+  "game/threads": 10,
+  "game/budget": 1000,
+
+  "PLAYER SAMPLER": "HERE BELOW THE PLAYER SAMPLER PARAMETERS",
+  "fitness/player_sampler": "double",
+  "fitness/player_sampler/base/type": "EHB-any",
+  "fitness/player_sampler/base/config": [0,1,3,1,1,0,3,0,3,0],
+  "fitness/player_sampler/base/eb/algorithm": "RHEA",
+  "fitness/player_sampler/base/eb/weights": [-0.9715739644921189,-0.4999378949298767,0.1385745919316046,-0.5462007409905907,0.3506587911150405,-0.30774431181913275,-0.8660685676159059,-0.03478138666602271,-0.9222413694581881,0.8742074786335887,-0.26302974986023564,-0.20965591718330012,0.9087319369134153,-0.2865776998681244,-0.3571803484664402,0.5884185458485351,0.7690303930486571,-0.2749441784999389],
+  "fitness/player_sampler/base/eb/heuristic": "linear",
+  "fitness/player_sampler/base/eb/converter": "id",
+  "fitness/player_sampler/double/type": "EHB-any",
+  "fitness/player_sampler/double/config": [1,4,2,1,1,1,1,3,1,1],
+  "fitness/player_sampler/double/eb/algorithm": "RHEA",
+  "fitness/player_sampler/double/eb/weights": [-0.9700315357170848,-0.1674332483050538,0.09648337296862453,0.44659632725270737,-0.35820770586996065,-0.6119533192349018,-0.4890409458445535,0.5501264560708508,-0.010550630736649635,-0.4173993216088576,0.9582847849891887,-0.188890131131906,-0.5933242554201603,0.7749046838163356,0.46010982889843954,0.39070858878948944,0.4760751512469463,-0.6980896752063079],
+  "fitness/player_sampler/double/eb/heuristic": "linear",
+  "fitness/player_sampler/double/eb/converter": "id",
+
+  "OPPONENT FACTORY": "HERE BELOW THE OPPONENT FACTORY PARAMETERS",
+  "fitness/opponent/type": "RND",
+
+  "FITNESS": "HERE BELOW THE GENERIC FITNESS PARAMETERS",
+  "fitness/samples": 1,
+  "fitness/repeats": 40,
+  "fitness/true/samples": 1,
+  "fitness/true/repeats": 10000,
+  "fitness/stats": ["CardCount","TotalCoins"],
+  "fitness/performance" : "win",
+
+  "GAMEPLAY FITNESS": "HERE BELOW THE GAMEPLAY FITNESS PARAMETERS",
+  "fitness/gameplay": "2PlayerSplit",
+
+  "GENOTYPE FITNESS": "HERE BELOW THE GENOTYPE EVALUATOR PARAMETERS",
+  "fitness/genotype/type": "Chebyshev",
+  "fitness/genotype/reference": "assets/defaultx2/"
+}

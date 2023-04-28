@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class SparseMultilayerDecoder extends MultilayerNNDecoder {
 
+	private static boolean VERBOSE=false;
+
 	protected long seed;
 	protected int[] rndConnections;
 	private int layersCount;
@@ -57,12 +59,11 @@ public class SparseMultilayerDecoder extends MultilayerNNDecoder {
 			}else{
 				seedsCount++;
 			}
-			System.out.println(s+" lCount:"+layersCount+" rCount:"+rndConnLayersCount+" sCount:"+seedsCount);
+			if(VERBOSE) System.out.println(s+" lCount:"+layersCount+" rCount:"+rndConnLayersCount+" sCount:"+seedsCount);
 		}
 		if(rndConnLayersCount > layersCount-2){
 			throw new RuntimeException("Parsing error: "+ Arrays.toString(l));
 		}
-
 	}
 
 	private boolean isRndConnection(String s){
@@ -89,7 +90,7 @@ public class SparseMultilayerDecoder extends MultilayerNNDecoder {
 	@Override
 	public String toString() {
 		return "SparseMultilayerDecoder{" +
-				"super:" + super.toString()+
+				"super:" + super.toString() +
 				", seed=" + seed +
 				", rndConnections=" + Arrays.toString(rndConnections) +
 				", layersCount=" + layersCount +
@@ -97,35 +98,4 @@ public class SparseMultilayerDecoder extends MultilayerNNDecoder {
 				", seedsCount=" + seedsCount +
 				'}';
 	}
-
-//		 mask = new boolean[layers.length-1][layers[0]*layers[1]];
-
-//		BasicNetwork network = new BasicNetwork();
-//		for(int nCount : this.layers){
-//			network.addLayer(new BasicLayer(function,true,nCount));
-//		}
-//		network.addLayer(new BasicLayer(new ActivationLinear(),false,1));
-//
-//		for(int fromLayer=0; fromLayer<layers.length-1; fromLayer++) {
-//			int fromLayerNeurons = network.getLayerNeuronCount(fromLayer);
-//			int toLayerNeurons = network.getLayerNeuronCount(fromLayer + 1);
-//			Random rnd = new Random();
-//
-//			network.decodeFromArray(new double[network.encodedArrayLength()]);
-//
-//			for (int fromNeuron = 0; fromNeuron < fromLayerNeurons; fromNeuron++) {
-//				for (int toNeuron = 0; toNeuron < toLayerNeurons; toNeuron++) {
-//					boolean isEnabled = rnd.nextDouble() > 0.5 ? false : true;
-//					network.enableConnection(fromLayer, fromNeuron, toNeuron, isEnabled);
-//					if (isEnabled)
-//						network.setWeight(fromLayer, fromNeuron, toNeuron, rnd.nextDouble());
-//					else
-//						network.setWeight(fromLayer, fromNeuron, toNeuron, 0);
-//				}
-//			}
-//
-//		}
-//		network.getStructure().finalizeStructure();
-//
-//		return network;
 }

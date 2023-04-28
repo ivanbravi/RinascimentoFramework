@@ -4,7 +4,7 @@ import evodef.AnnotatedSearchSpace;
 import game.heuristics.LogBasedVectorHeuristic;
 import game.log.converters.EventIdConverter;
 import hyper.agents.factory.AgentFactorySpace;
-import hyper.agents.factory.HeuristicAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
 import log.entities.event.PlayerEventVectorLogger;
 import log.heuristics.WeightedHeuristic;
 import players.BasePlayerInterface;
@@ -14,11 +14,11 @@ public class EventBasedAgentFactory extends AgentFactorySpace {
 	private static final int agentSpaceIndex = 0;
 	private static final int heuristicSpaceIndex = 1;
 
-	private HeuristicAgentFactory agentFactory;
+	private HeuristicAgentFactorySpace agentFactory;
 	private WeightedHeuristic h;
 	private EventIdConverter converter;
 
-	public EventBasedAgentFactory(HeuristicAgentFactory agentFactory, WeightedHeuristic h, EventIdConverter converter){
+	public EventBasedAgentFactory(HeuristicAgentFactorySpace agentFactory, WeightedHeuristic h, EventIdConverter converter){
 		this.agentFactory = agentFactory;
 		this.h = h;
 		this.converter = converter;

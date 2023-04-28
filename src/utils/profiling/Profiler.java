@@ -1,6 +1,7 @@
 package utils.profiling;
 
 public class Profiler {
-	public void stateAdvance() {}
-	public void stateCopy() {}
+	public void stateEngineAdvanced() {}
+	public void stateCopy(){}
+	public void actionPerformed(){}
 }

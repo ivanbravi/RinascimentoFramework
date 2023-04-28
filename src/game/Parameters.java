@@ -7,6 +7,8 @@ import java.io.Reader;
 import java.io.Writer;
 import java.util.Arrays;
 import com.google.gson.*;
+import utils.gson.GsonUtils;
+import utils.loaders.EasyJSON;
 
 /*
 * The object also provides the default destinations and names for decks and nobles files
@@ -165,14 +167,54 @@ public class Parameters{
 	}
 
 	public static void main(String[] args){
-		String path = "assets/default/";
-		String fileName = "parameters.json";
-		Parameters saved = Parameters.defaultParameters();
+//		String path = "assets/default/";
+//		String fileName = "parameters.json";
+//		Parameters saved = Parameters.defaultParameters();
+//
+//		Parameters.save(path,fileName, saved);
+//		Parameters loaded = Parameters.load(path,fileName);
+//
+//		System.out.println(saved.equals(loaded)?"WORKS":"S*IT");
+	}
 
-		Parameters.save(path,fileName, saved);
-		Parameters loaded = Parameters.load(path,fileName);
+	public static int[] vectorise(Parameters p){
+		return new int[]{
+				p.playerCount,
+				p.suitCount,
+				p.coinCount,
+				p.goldCount,
+				p.maxCoins,
+				p.deckCount,
+				p.cardsOnTableCount,
+				p.noblesCount,
+				p.endGameScore,
+				p.maxReserveCards,
+				p.pickDifferentCount,
+				p.pickDifferentAmount,
+				p.pickSameAmount,
+				p.pickSameMinCoins
+		};
+	}
 
-		System.out.println(saved.equals(loaded)?"WORKS":"S*IT");
+	public static Parameters unpack(int[] v){
+		Parameters p = defaultParameters();
+
+		p.playerCount = v[0];
+		p.suitCount = v[1];
+		p.coinCount = v[2];
+		p.goldCount = v[3];
+		p.maxCoins = v[4];
+		p.deckCount = v[5];
+		p.cardsOnTableCount = v[6];
+		p.noblesCount = v[7];
+		p.endGameScore = v[8];
+		p.maxReserveCards = v[9];
+		p.pickDifferentCount = v[10];
+		p.pickDifferentAmount = v[11];
+		p.pickSameAmount = v[12];
+		p.pickSameMinCoins =v[13];
+
+		return p;
 	}
 
 }

@@ -4,7 +4,7 @@ import game.log.converters.EventIdConverter;
 import log.entities.event.PlayerEventVectorLogger;
 import mapelites.PlayerSolution;
 import game.heuristics.LogBasedVectorHeuristic;
-import hyper.agents.factory.HeuristicAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
 import log.heuristics.WeightedHeuristic;
 import players.BasePlayerInterface;
 
@@ -14,12 +14,12 @@ public class EBAgentSolution extends PlayerSolution {
 
 	private int[] agentConfig;
 	private double[] weights;
-	transient private HeuristicAgentFactory factory;
+	transient private HeuristicAgentFactorySpace factory;
 	transient private WeightedHeuristic heuristic;
 	private String playerName;
 	private EventIdConverter converter;
 
-	public EBAgentSolution(String playerName, int[] agentConfig, double[] weights, HeuristicAgentFactory factory, WeightedHeuristic heuristic, EventIdConverter converter){
+	public EBAgentSolution(String playerName, int[] agentConfig, double[] weights, HeuristicAgentFactorySpace factory, WeightedHeuristic heuristic, EventIdConverter converter){
 		this.playerName = playerName;
 		this.agentConfig = agentConfig;
 		this.weights = weights;

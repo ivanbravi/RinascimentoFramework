@@ -57,7 +57,7 @@ public class PlayerStatsWrapper extends PlayerNumericalStatistic {
 	@Override
 	public double value() {
 		if(stats.containsKey(main))
-			stats.get(main).value();
+			return stats.get(main).value();
 		return 0;
 	}
 
@@ -70,7 +70,7 @@ public class PlayerStatsWrapper extends PlayerNumericalStatistic {
 	@Override
 	public double error() {
 		if (stats.containsKey(main))
-			stats.get(main).error();
+			return stats.get(main).error();
 		return 0;
 	}
 

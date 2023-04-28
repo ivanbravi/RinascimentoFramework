@@ -1,7 +1,7 @@
 package mapelites.statebased;
 
 import game.state.vectorise.Vectoriser;
-import hyper.agents.factory.HeuristicAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
 import log.heuristics.WeightedHeuristic;
 import log.heuristics.weights.UniformWeight;
 import log.heuristics.weights.WeightGenerator;
@@ -16,12 +16,12 @@ public class SBAgentSolutionSpace  implements SolutionSpace {
 
 	private String agentName;
 	private Random rnd = new Random();
-	private HeuristicAgentFactory agentSpace;
+	private HeuristicAgentFactorySpace agentSpace;
 	private WeightedHeuristic heuristic;
 	private Vectoriser vectoriser;
 	private WeightGenerator wGenerator = new UniformWeight(-1,1);
 
-	public SBAgentSolutionSpace(HeuristicAgentFactory agentSpace, WeightedHeuristic heuristic, Vectoriser vectoriser){
+	public SBAgentSolutionSpace(HeuristicAgentFactorySpace agentSpace, WeightedHeuristic heuristic, Vectoriser vectoriser){
 		this.agentSpace = agentSpace;
 		this.heuristic = heuristic;
 		this.vectoriser = vectoriser;

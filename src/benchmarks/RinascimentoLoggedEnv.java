@@ -1,6 +1,7 @@
 package benchmarks;
 
 import game.Factory;
+import game.Parameters;
 import game.log.RStateEventDispatcher;
 
 public class RinascimentoLoggedEnv extends RinascimentoEnv {
@@ -8,6 +9,10 @@ public class RinascimentoLoggedEnv extends RinascimentoEnv {
 
 	public RinascimentoLoggedEnv(String paramFile){
 		super(paramFile);
+	}
+
+	public RinascimentoLoggedEnv(Parameters p){
+		super(p);
 	}
 
 	public RinascimentoLoggedEnv(String paramFile, RStateEventDispatcher dispatcher){
@@ -18,5 +23,6 @@ public class RinascimentoLoggedEnv extends RinascimentoEnv {
 	public void setDispatcher(RStateEventDispatcher dispatcher){
 		startingState.setEventDispatcher(dispatcher);
 	}
+	public RStateEventDispatcher getDispatcher(){ return startingState.eventDispatcher();}
 
 }

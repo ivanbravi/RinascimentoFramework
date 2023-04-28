@@ -2,7 +2,7 @@ package mapelites.statebased;
 
 import game.heuristics.StateBasedVectorHeuristic;
 import game.state.vectorise.Vectoriser;
-import hyper.agents.factory.HeuristicAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
 import log.heuristics.WeightedHeuristic;
 import mapelites.PlayerSolution;
 import players.BasePlayerInterface;
@@ -13,12 +13,12 @@ public class SBAgentSolution extends PlayerSolution {
 
 	private int[] agentConfig;
 	private double[] weights;
-	transient private HeuristicAgentFactory factory;
+	transient private HeuristicAgentFactorySpace factory;
 	transient private WeightedHeuristic heuristic;
 	transient private Vectoriser vectoriser;
 	private String playerName;
 
-	SBAgentSolution(String playerName, int[] agentConfig, double[] weights, HeuristicAgentFactory factory, WeightedHeuristic heuristic, Vectoriser vectoriser){
+	SBAgentSolution(String playerName, int[] agentConfig, double[] weights, HeuristicAgentFactorySpace factory, WeightedHeuristic heuristic, Vectoriser vectoriser){
 		this.agentConfig = agentConfig;
 		this.weights = weights;
 		this.playerName = playerName;

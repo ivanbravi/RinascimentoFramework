@@ -1,7 +1,7 @@
 package mapelites.eventbased;
 
 import game.log.converters.EventIdConverter;
-import hyper.agents.factory.HeuristicAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
 import log.heuristics.WeightedHeuristic;
 import log.heuristics.weights.UniformWeight;
 import log.heuristics.weights.WeightGenerator;
@@ -16,12 +16,12 @@ public class EBAgentSolutionSpace implements SolutionSpace {
 
 	private String agentName;
 	private Random rnd = new Random();
-	private HeuristicAgentFactory agentSpace;
+	private HeuristicAgentFactorySpace agentSpace;
 	private WeightedHeuristic heuristic;
 	private WeightGenerator wGenerator = new UniformWeight(-1,1);
 	private EventIdConverter converter;
 
-	public EBAgentSolutionSpace(HeuristicAgentFactory agentSpace, WeightedHeuristic heuristic, EventIdConverter converter){
+	public EBAgentSolutionSpace(HeuristicAgentFactorySpace agentSpace, WeightedHeuristic heuristic, EventIdConverter converter){
 		this.agentSpace = agentSpace;
 		this.heuristic = heuristic;
 		this.converter = converter;

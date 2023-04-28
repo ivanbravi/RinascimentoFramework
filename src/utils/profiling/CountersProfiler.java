@@ -8,6 +8,7 @@ import java.util.HashMap;
 public class CountersProfiler extends Profiler{
 	public static final String ADVANCE = "State advance";
 	public static final String COPY = "State copy";
+	public static final String ACTION = "Action performed";
 
 	private HashMap<String, Double> counters = new HashMap<>();
 	private boolean isProfiling = false;
@@ -26,7 +27,7 @@ public class CountersProfiler extends Profiler{
 	}
 
 	@Override
-	public void stateAdvance(){
+	public void stateEngineAdvanced(){
 		updateCounter(ADVANCE);
 	}
 
@@ -34,6 +35,10 @@ public class CountersProfiler extends Profiler{
 	public void stateCopy(){
 		updateCounter(COPY);
 	}
+
+	@Override
+	public void actionPerformed() { updateCounter(ACTION); }
+
 	synchronized private void updateCounter(String key){
 		if(isProfiling) {
 			if (counters.containsKey(key))
@@ -47,10 +52,11 @@ public class CountersProfiler extends Profiler{
 	public String toString() {
 		StringBuilder b = new StringBuilder();
 		double time = timer.seconds();
+		b.append("time:"+time+" seconds\n");
 		for(String k: counters.keySet())
 			b.append(k).append(" : ").append(counters.get(k)).append("\n");
 		for(String k: counters.keySet())
-			b.append(k).append(" : ").append(counters.get(k)/time).append("\n");
+			b.append(k).append(" per second : ").append(counters.get(k)/time).append("\n");
 		return b.toString();
 	}
 }

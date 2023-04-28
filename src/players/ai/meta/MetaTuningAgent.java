@@ -3,11 +3,10 @@ package players.ai.meta;
 import game.BudgetExtendedGameState;
 import game.action.Action;
 import hyper.agents.factory.AgentFactorySpace;
-import hyper.agents.factory.HeuristicAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
 import players.BasePlayerInterface;
 import players.HeuristicBasedPlayerInterface;
 import players.ai.explicit.ExplicitPlayerInterface;
-import utilities.ElapsedTimer;
 
 import java.util.Arrays;
 
@@ -34,8 +33,8 @@ public class MetaTuningAgent extends HeuristicBasedPlayerInterface implements Ba
 	public MetaTuningAgent(AgentFactorySpace afs){
 		this.afs = afs;
 		this.turnsCount = 0;
-		if(afs instanceof HeuristicAgentFactory){
-			((HeuristicAgentFactory) afs).setHeuristic(this.h);
+		if(afs instanceof HeuristicAgentFactorySpace){
+			((HeuristicAgentFactorySpace) afs).setHeuristic(this.h);
 		}
 	}
 

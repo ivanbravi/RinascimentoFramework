@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/ivanbravi/git/Rinascimento/src</OriginalElement>
+  <nodes>
+    <node x="2226.0" y="384.0">players.ai.general.DoNothingAgent</node>
+    <node x="2225.5" y="2840.0">gui.RinascimentoUI</node>
+    <node x="515.8070175438596" y="1621.0">log.Logger</node>
+    <node x="1059.8070175438597" y="1633.5">statistics.types.NumericalStatistic</node>
+    <node x="2729.0" y="171.0">game.SeededExtendedGameState</node>
+    <node x="1351.0" y="2945.0">hyper.agents.seededrhea.SeededRHEAAParams</node>
+    <node x="791.0" y="2945.0">hyper.agents.eventbased.WeightsSearchSpace</node>
+    <node x="1807.0" y="3510.0">utils.ParamsJsonDeserialiser</node>
+    <node x="2374.0" y="3510.0">game.PlayFullGameThreaded</node>
+    <node x="1803.9999999999998" y="978.0">game.action.active.reserve.deck.RandomReserveDeckCard</node>
+    <node x="582.5570175438596" y="1833.0">mapelites.behaviours.ReservedCards</node>
+    <node x="194.26315789473676" y="1740.5">mapelites.behaviours.LoggingStatistic</node>
+    <node x="1585.25" y="2013.0">log.heuristics.NNHeuristic</node>
+    <node x="1950.25" y="2013.0">log.heuristics.PolynomialHeuristic</node>
+    <node x="2423.5570175438597" y="1529.0">log.heuristics.nn.NNCreator</node>
+    <node x="1119.132075471698" y="0.0">utils.NamedObject</node>
+    <node x="24.5" y="1324.0">log.entities.event.EventVectorLogger</node>
+    <node x="1340.5570175438597" y="1833.0">mapelites.behaviours.GameDuration</node>
+    <node x="122.25" y="912.0">game.action.active.buy.BuyCard</node>
+    <node x="724.0" y="3610.0">hyper.utilities.DiscreteLiniariser</node>
+    <node x="1652.5570175438597" y="1833.0">mapelites.behaviours.Points</node>
+    <node x="1192.0" y="3610.0">mapelites.behaviours.BehaviourReader</node>
+    <node x="2874.0" y="3355.0">mapelites.statebased.SBAgentSolutionSpace</node>
+    <node x="1546.0" y="3200.0">game.log.converters.EventIdConverter</node>
+    <node x="3021.0" y="171.0">game.ExtendedGameState</node>
+    <node x="2847.0" y="251.0">game.state.State</node>
+    <node x="2854.3070175438597" y="1529.0">players.ai.explicit.mcts.MCTSNode</node>
+    <node x="1314.75" y="1988.0">log.heuristics.nn.decoder.PerceptronDecoder</node>
+    <node x="249.0" y="3610.0">utils.loaders.LoadSearchSpace</node>
+    <node x="3034.5" y="2569.0">log.heuristics.weights.WeightGenerator</node>
+    <node x="5.5" y="2840.0">log.entities.event.EventSignature</node>
+    <node x="9.0" y="1220.5">log.entities.event.EventConvertedLogger</node>
+    <node x="2054.0" y="2649.0">game.heuristics.PointsHeuristic</node>
+    <node x="1041.0" y="1197.0">mapelites.loggers.PlayerIncomingCoinsLogger</node>
+    <node x="1650.0" y="3610.0">hyper.search.RunGridSearch</node>
+    <node x="185.0" y="992.0">game.action.active.buy.reserved.BuyReservedCard</node>
+    <node x="3159.0" y="3685.0">utils.math.combination.C</node>
+    <node x="1014.8490566037735" y="246.5">players.ai.explicit.ExplicitPlayerInterface</node>
+    <node x="2637.9999999999995" y="978.0">game.action.active.buy.board.RandomBuyBoardCard</node>
+    <node x="558.0" y="3355.0">statistics.adapters.ResultStatAdapter</node>
+    <node x="575.5" y="1908.0">hyper.utilities.FullNoisySolutionEvaluator</node>
+    <node x="2743.0" y="2422.0">game.BudgetExtendedGameState</node>
+    <node x="2445.5570175438597" y="1819.0">log.heuristics.nn.encog.creator.SeedlessSparseMultilayerCreator</node>
+    <node x="208.0" y="384.0">players.ai.explicit.mixer.MixerAgent</node>
+    <node x="472.0" y="2696.0">mapelites.statebased.SBAgentSolution</node>
+    <node x="288.0" y="3435.0">game.adapters.WonStaleLossAdapter</node>
+    <node x="511.0" y="3280.0">players.ai.factory.OSLAFactory</node>
+    <node x="1020.0" y="992.0">game.action.active.reserve.board.ReserveBoardCard</node>
+    <node x="1649.0" y="3280.0">game.log.converters.IdentityConverter</node>
+    <node x="0.0" y="1429.0">log.entities.event.PlayerEventVectorLogger</node>
+    <node x="2315.0" y="3280.0">game.exceptions.TimedStaleGameException</node>
+    <node x="3269.0" y="2472.0">log.heuristics.nn.encog.topology.NNBaseNetwork</node>
+    <node x="1135.0" y="2494.0">hyper.agents.rhea.RHEAAgentFactory</node>
+    <node x="1759.25" y="2013.0">log.heuristics.LinearHeuristic</node>
+    <node x="2133.0" y="3685.0">utils.math.Factorial</node>
+    <node x="845.8070175438596" y="1728.0">statistics.PositionStats</node>
+    <node x="3152.0" y="3355.0">log.LoggingStation</node>
+    <node x="1798.0" y="3685.0">utils.GsonTest</node>
+    <node x="233.0" y="3125.0">game.action.active.reserve.deck.ATReserveDeckCard</node>
+    <node x="0.0" y="1833.0">mapelites.behaviours.CardBoughtDeck</node>
+    <node x="1040.0" y="3510.0">game.state.Deck</node>
+    <node x="835.0" y="3355.0">utils.profiling.Profiler</node>
+    <node x="2355.9999999999995" y="978.0">game.action.active.pick.different.RandomPickDifferentCoins</node>
+    <node x="1027.0570175438597" y="1728.0">statistics.player.PlayerNumericalStatistic</node>
+    <node x="3179.25" y="2262.0">log.heuristics.nn.NNInterface</node>
+    <node x="324.5" y="2262.0">hyper.agents.factory.AgentFactorySpace</node>
+    <node x="1121.5" y="2389.0">hyper.agents.factory.HeuristicAgentFactory</node>
+    <node x="1025.0" y="3435.0">game.adapters.PositionAdapter</node>
+    <node x="944.0" y="3125.0">game.action.active.pick.different.ATPickDifferentCoinsGeneric</node>
+    <node x="29.5" y="3435.0">game.action.StatelessDecEnc</node>
+    <node x="3057.0" y="2472.0">log.heuristics.nn.encog.topology.SparseFFNetwork</node>
+    <node x="514.75" y="807.0">game.action.PlayableAction</node>
+    <node x="533.75" y="912.0">game.action.active.pick.PickCoins</node>
+    <node x="2158.5" y="2342.0">game.log.RStateEventDispatcher</node>
+    <node x="2544.0" y="3125.0">game.state.vectorise.PlayerStateVectoriser</node>
+    <node x="0.0" y="2945.0">game.log.REventSignature</node>
+    <node x="1579.0" y="2494.0">hyper.agents.mcts.MCTSAgentFactory</node>
+    <node x="733.0" y="2740.0">benchmarks.RinascimentoLoggedEnv</node>
+    <node x="1025.0" y="2840.0">hyper.utilities.CompleteAnnotatedSearchSpace</node>
+    <node x="1008.0" y="407.5">players.ai.explicit.mcts.MCTSPlayer</node>
+    <node x="990.5570175438596" y="1833.0">statistics.player.ResultStats</node>
+    <node x="1746.25" y="1908.0">log.heuristics.WeightedHeuristic</node>
+    <node x="1701.0" y="3125.0">game.state.vectorise.VectoriseState</node>
+    <node x="1041.0" y="2649.0">game.heuristics.PositionHeuristic</node>
+    <node x="1229.0" y="1908.0">log.heuristics.nn.NNDecoder</node>
+    <node x="2423.5570175438597" y="1634.0">log.heuristics.nn.encog.creator.NNCreatorEncog</node>
+    <node x="615.0" y="992.0">game.action.active.pick.same.PickSameCoins</node>
+    <node x="131.5" y="1908.0">mapelites.search.SearchCreator</node>
+    <node x="3277.0" y="3610.0">benchmarks.EvaluateNN</node>
+    <node x="2890.0" y="3685.0">log.entities.State</node>
+    <node x="0.0" y="384.0">players.ai.meta.MetaTuningAgent</node>
+    <node x="1564.0" y="2569.0">game.heuristics.Heuristic</node>
+    <node x="2837.75" y="724.0">hyper.OptBattle</node>
+    <node x="1865.0" y="3610.0">gui.compilers.NobleCompiler</node>
+    <node x="228.99999999999997" y="3280.0">hyper.agents.factory.SearchSpaceBasedFactory</node>
+    <node x="677.75" y="714.5">game.action.passive.PassiveActionInterface</node>
+    <node x="2359.3070175438597" y="1739.0">log.heuristics.nn.encog.creator.MultilayerCreator</node>
+    <node x="2339.5" y="3200.0">game.exceptions.StaleGameException</node>
+    <node x="288.0" y="3355.0">statistics.adapters.WonStaleLossAdapter</node>
+    <node x="0.0" y="3610.0">mapelites.MAPElitesLauncher</node>
+    <node x="2169.0" y="2262.0">log.entities.event.StatefulEventLogger</node>
+    <node x="465.0" y="3125.0">game.action.active.pick.same.ATPickSameCoinsGeneric</node>
+    <node x="1057.0" y="2729.0">game.heuristics.WinHeuristic</node>
+    <node x="1888.0" y="3125.0">game.state.vectorise.VectoriseStateDeep</node>
+    <node x="614.0" y="2945.0">hyper.agents.mcts.MCTSParams</node>
+    <node x="808.0" y="992.0">game.action.active.reserve.deck.ReserveDeckCard</node>
+    <node x="2889.0" y="3610.0">gui.ConsolePlay</node>
+    <node x="2212.4999999999995" y="873.0">players.ai.explicit.mixer.WeightedPlayer</node>
+    <node x="918.0" y="3685.0">utils.loaders.EasyJSON</node>
+    <node x="2567.3070175438597" y="1739.0">log.heuristics.nn.encog.creator.PerceptronCreator</node>
+    <node x="332.0" y="2401.5">hyper.agents.featurebased.FeatureBasedAgentFactory</node>
+    <node x="2038.0" y="373.0">players.human.UIPlayer</node>
+    <node x="567.5" y="1092.0">log.entities.event.EventLogger</node>
+    <node x="1246.0" y="2649.0">game.heuristics.PointsPositionHeuristic</node>
+    <node x="1853.0" y="384.0">players.human.ConsolePlayer</node>
+    <node x="1773.5570175438597" y="1833.0">mapelites.behaviours.CardCount</node>
+    <node x="2079.9999999999995" y="978.0">game.action.active.buy.reserved.RandomBuyReservedCard</node>
+    <node x="1520.9999999999998" y="978.0">game.action.active.reserve.board.RandomReserveBoardCard</node>
+    <node x="1500.0" y="2649.0">game.heuristics.LogBasedVectorHeuristic</node>
+    <node x="1177.0" y="2126.0">log.heuristics.nn.decoder.SeedlessSparseMultilayerDecoder</node>
+    <node x="2573.0" y="3355.0">utils.loaders.LoadAgentEvaluator</node>
+    <node x="1650.0" y="384.0">players.ai.explicit.DoNothingAgent</node>
+    <node x="642.75" y="3045.0">game.action.ActionType</node>
+    <node x="1624.0" y="3685.0">utils.math.combination.Container</node>
+    <node x="1211.0" y="3280.0">utils.math.combination.repeated.MultiCombination</node>
+    <node x="1247.0" y="3355.0">statistics.adapters.WonAdapter</node>
+    <node x="971.3070175438596" y="1529.0">statistics.types.StatisticInterface</node>
+    <node x="1423.0" y="3610.0">utils.math.permutation.SimpleContainer</node>
+    <node x="186.0" y="3685.0">utils.History</node>
+    <node x="1564.75" y="2118.0">log.heuristics.HyperNNHeuristic</node>
+    <node x="1520.0" y="3510.0">hyper.search.RunSelectiveGridSearch</node>
+    <node x="1243.0" y="3125.0">game.action.active.reserve.board.ATReserveBoardCard</node>
+    <node x="1356.0" y="2494.0">hyper.agents.mixed.MixerFactorySpace</node>
+    <node x="2650.0" y="3510.0">players.BudgetOverException</node>
+    <node x="2114.0" y="3355.0">game.state.Noble</node>
+    <node x="2298.0" y="3685.0">game.Factory</node>
+    <node x="675.8070175438596" y="1728.0">statistics.PlayersStats</node>
+    <node x="204.0" y="2569.0">mapelites.PlayerSolution</node>
+    <node x="554.0" y="407.5">players.ai.seeding.SeedingRHEA</node>
+    <node x="551.0" y="2159.0">hyper.environment.RAEPooledEnemies</node>
+    <node x="1525.5570175438597" y="1833.0">mapelites.behaviours.Nobles</node>
+    <node x="1930.5570175438597" y="1833.0">statistics.PlayerStatsWrapper</node>
+    <node x="1441.0" y="3355.0">mapelites.FitnessFunction</node>
+    <node x="1218.0" y="3510.0">mapelites.eventbased.EBAgentSolutionSummary</node>
+    <node x="716.25" y="807.0">game.action.passive.TakeNoble</node>
+    <node x="2076.0" y="3280.0">benchmarks.statistics.FullMetricsBuilder</node>
+    <node x="1030.0" y="2945.0">hyper.agents.eventbased.SinglePointWeightsBasedSpace</node>
+    <node x="2490.0" y="3610.0">utils.AgentsConfig</node>
+    <node x="2785.0" y="3125.0">game.state.vectorise.VectoriseCards</node>
+    <node x="2202.0" y="246.5">players.ai.general.GeneralPlayerInterface</node>
+    <node x="854.0" y="2494.0">hyper.agents.seededrhea.SeededRHEAAgentFactory</node>
+    <node x="390.0" y="407.5">players.ai.explicit.HyperRHEA</node>
+    <node x="664.3070175438596" y="1529.0">log.LoggableReady</node>
+    <node x="1883.0" y="3280.0">benchmarks.statistics.WinRateBuilder</node>
+    <node x="438.0" y="3510.0">game.state.ShuffledDeck</node>
+    <node x="1446.0" y="3280.0">game.log.converters.SimpleConverter</node>
+    <node x="2091.0" y="3510.0">benchmarks.RoundRobinTournament</node>
+    <node x="1765.0" y="2945.0">hyper.agents.eventbased.CombinedSearchSpace</node>
+    <node x="1947.4999999999998" y="885.5">game.action.random.RandomActionGenerator</node>
+    <node x="2809.3070175438597" y="1609.0">players.ai.explicit.mcts.MCTSRootNode</node>
+    <node x="2554.7499999999995" y="758.5">utils.WeightedRandomSelection</node>
+    <node x="539.75" y="702.0">game.action.Action</node>
+    <node x="428.5570175438596" y="1833.0">mapelites.behaviours.TotalCoins</node>
+    <node x="2574.421875" y="2342.0">log.entities.event.EventLoggerDispatcher</node>
+    <node x="2964.0" y="3200.0">generators.nobles.NoblesGenerator</node>
+    <node x="311.0" y="2494.0">hyper.agents.featurebased.FeatureBasedFixedAgentFactory</node>
+    <node x="791.0" y="1197.0">mapelites.loggers.PlayerCardCostLogger</node>
+    <node x="556.0" y="3685.0">hyper.search.RunNTBEA</node>
+    <node x="236.0" y="2696.0">mapelites.eventbased.EBAgentSolution</node>
+    <node x="0.0" y="3510.0">mapelites.pointbased.PBSolutionSpace</node>
+    <node x="2103.7499999999995" y="746.0">utils.WeightedElement</node>
+    <node x="515.0" y="1197.0">mapelites.loggers.PlayerReserveCardLogger</node>
+    <node x="2929.0" y="3280.0">generators.nobles.SplendorNoblesGenerator</node>
+    <node x="1771.0" y="2649.0">game.heuristics.StateBasedVectorHeuristic</node>
+    <node x="227.0" y="2945.0">game.budget.ActionsBudget</node>
+    <node x="113.5" y="2035.0">mapelites.search.PointBasedSearch</node>
+    <node x="3175.0" y="3510.0">mapelites.BehavioursFunction</node>
+    <node x="246.0" y="2840.0">game.budget.Budget</node>
+    <node x="262.0" y="1197.0">mapelites.loggers.PlayerCardDeckLogger</node>
+    <node x="0.0" y="2494.0">hyper.agents.eventbased.EventBasedFixedAgentFactory</node>
+    <node x="844.0" y="3510.0">players.ai.meta.LiveNTBEA</node>
+    <node x="926.0" y="3280.0">utils.math.combination.simple.PrecomputedCombinations</node>
+    <node x="1967.0" y="3685.0">hyper.utilities.Distance</node>
+    <node x="686.0" y="3280.0">players.ai.factory.DoNothingFactory</node>
+    <node x="901.75" y="912.0">game.action.active.reserve.AbstractReserveCard</node>
+    <node x="2436.0" y="2444.0">game.log.RinascimentoEventDispatcher</node>
+    <node x="2893.0" y="0.0">game.AbstractGameState</node>
+    <node x="1159.0" y="522.0">players.ai.explicit.SafeRandomPlayer</node>
+    <node x="748.0" y="2569.0">benchmarks.RinascimentoEnv</node>
+    <node x="2154.0" y="3045.0">game.state.vectorise.Vectoriser</node>
+    <node x="2116.0" y="3125.0">game.state.vectorise.AllPlayersVectoriser</node>
+    <node x="2918.0" y="3510.0">mapelites.pointbased.PBSolutionSummary</node>
+    <node x="738.0" y="3685.0">utils.TestSpeed</node>
+    <node x="232.0" y="3510.0">utils.math.permutation.P</node>
+    <node x="1274.0" y="3685.0">utils.ArrayUtils</node>
+    <node x="1176.0" y="384.0">players.ai.explicit.RandomPlayer</node>
+    <node x="2134.0" y="2456.5">game.log.DummyStateEventDispatcher</node>
+    <node x="2344.0" y="3125.0">game.state.vectorise.VectoriseNobles</node>
+    <node x="282.5570175438596" y="1833.0">mapelites.behaviours.CardCost</node>
+    <node x="0.0" y="3355.0">game.action.ActionsEncoderDecoder</node>
+    <node x="854.8070175438596" y="1621.0">statistics.GameStats</node>
+    <node x="2648.0" y="2569.0">game.state.PlayerState</node>
+    <node x="1074.75" y="1988.0">log.heuristics.nn.decoder.MultilayerNNDecoder</node>
+    <node x="0.0" y="992.0">game.action.active.buy.board.BuyBoardCard</node>
+    <node x="0.0" y="3280.0">players.ai.factory.SafeRandomFactory</node>
+    <node x="1096.0" y="3685.0">benchmarks.Evaluation</node>
+    <node x="2231.0" y="2945.0">gui.VisualiseState</node>
+    <node x="739.0" y="3125.0">game.action.active.buy.board.ATBuyBoardCard</node>
+    <node x="2313.7499999999995" y="746.0">game.action.random.RandomActionFeeder</node>
+    <node x="1596.0" y="2945.0">hyper.agents.meta.MetaParams</node>
+    <node x="0.0" y="3125.0">game.action.active.buy.reserved.ATBuyReservedCard</node>
+    <node x="958.0" y="3610.0">utils.AgentDescription</node>
+    <node x="488.0" y="3610.0">benchmarks.PlayRinascimento</node>
+    <node x="1247.0" y="3435.0">game.adapters.WonAdapter</node>
+    <node x="638.0" y="2494.0">hyper.agents.meta.MetaAgentFactory</node>
+    <node x="516.8070175438596" y="1740.5">log.TimeSeries</node>
+    <node x="1025.0" y="3355.0">statistics.adapters.PositionAdapter</node>
+    <node x="1828.0" y="2456.5">game.log.ConsoleStateEventDispatcher</node>
+    <node x="1102.25" y="3200.0">utils.math.combination.Combinations</node>
+    <node x="1152.5570175438597" y="1833.0">statistics.player.WinGameStats</node>
+    <node x="2454.0" y="3685.0">log.entities.action.Action</node>
+    <node x="3265.5" y="3200.0">generators.decks.DecksGenerator</node>
+    <node x="1449.0" y="3685.0">log.LogGroup</node>
+    <node x="3135.0" y="2674.0">log.heuristics.weights.GaussianWeight</node>
+    <node x="251.0" y="2162.0">mapelites.search.StateFeatureBasedSearch</node>
+    <node x="641.0" y="3510.0">gui.UIPlayerInput</node>
+    <node x="1778.0" y="3355.0">players.ai.meta.GameStateEnvironment</node>
+    <node x="734.0" y="407.5">players.ai.explicit.OneStepLookAheadAgent</node>
+    <node x="1263.9999999999998" y="978.0">game.action.active.pick.same.RandomPickSameCoins</node>
+    <node x="440.0" y="2945.0">hyper.agents.rhea.RHEAParams</node>
+    <node x="2749.0" y="3685.0">log.entities.event.Event</node>
+    <node x="3174.75" y="2367.0">log.heuristics.nn.encog.topology.EncogAdapter</node>
+    <node x="564.0" y="1988.0">hyper.environment.RinascimentoAgentEvaluator</node>
+    <node x="799.0" y="3435.0">utils.profiling.CountersProfiler</node>
+    <node x="2675.5" y="3200.0">utils.math.permutation.Permutations</node>
+    <node x="2266.0" y="3355.0">mapelites.eventbased.EBAgentSolutionSpace</node>
+    <node x="0.0" y="2162.0">mapelites.search.EventBasedSearch</node>
+    <node x="2947.0" y="2674.0">log.heuristics.weights.UniformWeight</node>
+    <node x="774.5570175438596" y="1833.0">statistics.player.WinStaleLostStats</node>
+    <node x="1997.25" y="3200.0">benchmarks.statistics.StatsBuilder</node>
+    <node x="2079.0" y="3610.0">utils.NoblesLoader</node>
+    <node x="608.5" y="597.0">log.entities.action.LoggableAction</node>
+    <node x="2285.0" y="3610.0">gui.compilers.CardCompiler</node>
+    <node x="369.25" y="3200.0">players.ai.factory.SimpleAgentFactory</node>
+    <node x="2623.0" y="3280.0">utils.math.permutation.PrecomputedPermutations</node>
+    <node x="1094.632075471698" y="105.0">players.BasePlayerInterface</node>
+    <node x="1361.0" y="384.0">players.ai.explicit.RandomEventLogTestPlayer</node>
+    <node x="2183.5570175438597" y="1819.0">log.heuristics.nn.encog.creator.SparseMultilayerCreator</node>
+    <node x="0.0" y="2707.0">mapelites.pointbased.PBAgentSolution</node>
+    <node x="371.0" y="3685.0">hyper.search.GridSearch</node>
+    <node x="20.5" y="2401.5">hyper.agents.eventbased.EventBasedAgentFactory</node>
+    <node x="1507.0" y="3125.0">game.state.vectorise.VectorisePlayer</node>
+    <node x="3230.0" y="3280.0">generators.decks.SplendorDecksGenerator</node>
+    <node x="133.13207547169804" y="212.0">players.HeuristicBasedPlayerInterface</node>
+    <node x="3029.0" y="3685.0">game.state.vectorise.Test</node>
+    <node x="3083.0" y="3610.0">gui.UIStandards</node>
+    <node x="558.0" y="3435.0">game.adapters.ResultStatAdapter</node>
+    <node x="2453.0" y="246.5">players.GeneralPlayerInterface</node>
+    <node x="2694.0" y="3610.0">utils.Pair</node>
+    <node x="397.0" y="1004.5">game.action.active.pick.different.PickDifferentCoins</node>
+    <node x="907.0000000000001" y="2115.0">log.heuristics.nn.decoder.SparseMultilayerDecoder</node>
+    <node x="2414.0" y="2945.0">gui.AutoPlay</node>
+    <node x="2270.0" y="2569.0">game.Engine</node>
+    <node x="0.0" y="3685.0">game.Parameters</node>
+    <node x="2602.0" y="3685.0">game.state.Result</node>
+    <node x="2458.2499999999995" y="597.0">utils.RandomBased</node>
+    <node x="2045.0" y="2945.0">gui.ConsolePlayUI</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="game.exceptions.TimedStaleGameException" target="game.exceptions.StaleGameException" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="gui.ConsolePlayUI" target="gui.RinascimentoUI" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2128.0" y="2920.0" />
+      <point x="2312.5" y="2920.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.heuristics.PointsPositionHeuristic" target="game.heuristics.Heuristic" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1363.0" y="2624.0" />
+      <point x="1625.5" y="2624.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.active.reserve.deck.ReserveDeckCard" target="game.action.active.reserve.AbstractReserveCard" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="904.0" y="967.0" />
+      <point x="1011.75" y="967.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.heuristics.LogBasedVectorHeuristic" target="game.heuristics.Heuristic" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.entities.event.PlayerEventVectorLogger" target="log.entities.event.EventVectorLogger" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="players.ai.factory.OSLAFactory" target="players.ai.factory.SimpleAgentFactory" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="588.5" y="3255.0" />
+      <point x="474.25" y="3255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mapelites.behaviours.TotalCoins" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="33.5" y="-15.0" />
+      <point x="529.0570175438596" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.action.passive.TakeNoble" target="game.action.passive.PassiveActionInterface" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.agents.factory.HeuristicAgentFactory" target="hyper.agents.factory.AgentFactorySpace" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="1235.5" y="2364.0" />
+      <point x="464.5" y="2364.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="hyper.agents.rhea.RHEAAgentFactory" target="hyper.agents.factory.HeuristicAgentFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.action.active.reserve.deck.ATReserveDeckCard" target="game.action.ActionType" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="339.0" y="3100.0" />
+      <point x="711.75" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.active.reserve.deck.RandomReserveDeckCard" target="game.action.random.RandomActionGenerator" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1931.9999999999998" y="953.0" />
+      <point x="2069.9999999999995" y="953.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.adapters.WonAdapter" target="statistics.adapters.WonAdapter" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="generators.decks.SplendorDecksGenerator" target="generators.decks.DecksGenerator" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.heuristics.nn.encog.creator.MultilayerCreator" target="log.heuristics.nn.encog.creator.NNCreatorEncog" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2453.3070175438597" y="1714.0" />
+      <point x="2559.5570175438597" y="1714.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="hyper.agents.meta.MetaParams" target="hyper.utilities.CompleteAnnotatedSearchSpace" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1670.5" y="2920.0" />
+      <point x="1180.5" y="2920.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="players.ai.explicit.HyperRHEA" target="players.HeuristicBasedPlayerInterface" relationship="GENERALIZATION">
+      <point x="-36.0" y="-15.0" />
+      <point x="426.0" y="352.0" />
+      <point x="277.63207547169804" y="352.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="mapelites.behaviours.CardBoughtDeck" target="mapelites.behaviours.LoggingStatistic" relationship="REALIZATION">
+      <point x="-46.5" y="-15.0" />
+      <point x="46.5" y="1813.0" />
+      <point x="284.26315789473676" y="1813.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.agents.mcts.MCTSParams" target="hyper.utilities.CompleteAnnotatedSearchSpace" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="692.5" y="2920.0" />
+      <point x="1180.5" y="2920.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="gui.AutoPlay" target="gui.RinascimentoUI" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2475.0" y="2920.0" />
+      <point x="2312.5" y="2920.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="utils.WeightedRandomSelection" target="utils.RandomBased" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2686.2499999999995" y="699.0" />
+      <point x="2555.2499999999995" y="699.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="players.ai.explicit.HyperRHEA" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="36.0" y="-15.0" />
+      <point x="498.0" y="342.0" />
+      <point x="1128.3490566037735" y="342.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.log.ConsoleStateEventDispatcher" target="game.log.RStateEventDispatcher" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1971.0" y="2397.0" />
+      <point x="2275.0" y="2397.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.state.vectorise.VectorisePlayer" target="game.state.vectorise.Vectoriser" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1594.0" y="3100.0" />
+      <point x="2220.0" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.explicit.SafeRandomPlayer" target="players.ai.explicit.RandomPlayer" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="hyper.agents.featurebased.FeatureBasedAgentFactory" target="hyper.agents.factory.AgentFactorySpace" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="hyper.agents.mixed.MixerFactorySpace" target="hyper.agents.factory.HeuristicAgentFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1457.5" y="2469.0" />
+      <point x="1235.5" y="2469.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="players.ai.explicit.mixer.MixerAgent" target="players.HeuristicBasedPlayerInterface" relationship="GENERALIZATION">
+      <point x="-40.5" y="-38.5" />
+      <point x="248.5" y="352.0" />
+      <point x="277.63207547169804" y="352.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="mapelites.statebased.SBAgentSolution" target="mapelites.PlayerSolution" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="580.0" y="2671.0" />
+      <point x="344.0" y="2671.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="utils.math.permutation.PrecomputedPermutations" target="utils.math.permutation.Permutations" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mapelites.behaviours.ReservedCards" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="43.0" y="-15.0" />
+      <point x="711.5570175438596" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="log.heuristics.NNHeuristic" target="log.heuristics.WeightedHeuristic" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="1662.25" y="1988.0" />
+      <point x="1844.75" y="1988.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.action.active.reserve.board.RandomReserveBoardCard" target="game.action.random.RandomActionGenerator" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1652.4999999999998" y="953.0" />
+      <point x="2069.9999999999995" y="953.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="utils.math.combination.repeated.MultiCombination" target="utils.math.combination.Combinations" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1306.0" y="3255.0" />
+      <point x="1182.25" y="3255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.active.reserve.board.ReserveBoardCard" target="game.action.active.reserve.AbstractReserveCard" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="1119.5" y="967.0" />
+      <point x="1011.75" y="967.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.PlayableAction" target="game.action.Action" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="mapelites.behaviours.CardCost" target="mapelites.behaviours.LoggingStatistic" relationship="REALIZATION">
+      <point x="-31.5" y="-15.0" />
+      <point x="314.0570175438596" y="1813.0" />
+      <point x="284.26315789473676" y="1813.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.budget.ActionsBudget" target="game.budget.Budget" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="log.heuristics.nn.encog.topology.SparseFFNetwork" target="log.heuristics.nn.encog.topology.EncogAdapter" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="3153.0" y="2447.0" />
+      <point x="3256.25" y="2447.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="mapelites.loggers.PlayerCardCostLogger" target="log.entities.event.EventLogger" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="906.0" y="1172.0" />
+      <point x="643.0" y="1172.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="mapelites.eventbased.EBAgentSolution" target="mapelites.PlayerSolution" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="game.action.active.reserve.board.ATReserveBoardCard" target="game.action.ActionType" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1352.5" y="3100.0" />
+      <point x="711.75" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="utils.profiling.CountersProfiler" target="utils.profiling.Profiler" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.heuristics.HyperNNHeuristic" target="log.heuristics.NNHeuristic" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="log.heuristics.nn.encog.creator.NNCreatorEncog" target="log.heuristics.nn.NNCreator" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="players.HeuristicBasedPlayerInterface" target="players.BasePlayerInterface" relationship="REALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="277.63207547169804" y="191.0" />
+      <point x="153.84905660377353" y="191.0" />
+      <point x="153.84905660377353" y="181.0" />
+      <point x="1146.882075471698" y="181.0" />
+      <point x="-52.25" y="27.5" />
+    </edge>
+    <edge source="log.heuristics.PolynomialHeuristic" target="log.heuristics.WeightedHeuristic" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="2054.25" y="1988.0" />
+      <point x="1844.75" y="1988.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="log.heuristics.nn.encog.topology.NNBaseNetwork" target="log.heuristics.nn.encog.topology.EncogAdapter" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="3359.5" y="2447.0" />
+      <point x="3256.25" y="2447.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="mapelites.behaviours.Nobles" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1579.0570175438597" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.action.active.buy.reserved.RandomBuyReservedCard" target="game.action.random.RandomActionGenerator" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2207.9999999999995" y="953.0" />
+      <point x="2069.9999999999995" y="953.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.heuristics.nn.encog.creator.SeedlessSparseMultilayerCreator" target="log.heuristics.nn.encog.creator.MultilayerCreator" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2602.0570175438597" y="1794.0" />
+      <point x="2453.3070175438597" y="1794.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.active.pick.same.RandomPickSameCoins" target="game.action.random.RandomActionGenerator" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1382.4999999999998" y="953.0" />
+      <point x="2069.9999999999995" y="953.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.state.vectorise.VectoriseState" target="game.state.vectorise.Vectoriser" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1784.5" y="3100.0" />
+      <point x="2220.0" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="statistics.GameStats" target="statistics.types.StatisticInterface" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="923.8070175438596" y="1600.0" />
+      <point x="1017.8070175438596" y="1600.0" />
+      <point x="-46.5" y="15.0" />
+    </edge>
+    <edge source="mapelites.behaviours.TotalCoins" target="mapelites.behaviours.LoggingStatistic" relationship="REALIZATION">
+      <point x="-33.5" y="-15.0" />
+      <point x="462.0570175438596" y="1813.0" />
+      <point x="284.26315789473676" y="1813.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.adapters.ResultStatAdapter" target="statistics.adapters.ResultStatAdapter" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mapelites.loggers.PlayerCardDeckLogger" target="log.entities.event.EventLogger" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="378.5" y="1172.0" />
+      <point x="643.0" y="1172.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.state.State" target="game.ExtendedGameState" relationship="REALIZATION">
+      <point x="0.0" y="-148.5" />
+      <point x="2996.0" y="226.0" />
+      <point x="3127.0" y="226.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.agents.eventbased.SinglePointWeightsBasedSpace" target="hyper.utilities.CompleteAnnotatedSearchSpace" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="log.heuristics.nn.decoder.PerceptronDecoder" target="log.heuristics.nn.NNDecoder" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1417.25" y="1963.0" />
+      <point x="1301.0" y="1963.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="benchmarks.statistics.WinRateBuilder" target="benchmarks.statistics.StatsBuilder" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1969.5" y="3255.0" />
+      <point x="2071.25" y="3255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mapelites.loggers.PlayerIncomingCoinsLogger" target="log.entities.event.EventLogger" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1177.0" y="1172.0" />
+      <point x="643.0" y="1172.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="mapelites.pointbased.PBAgentSolution" target="mapelites.PlayerSolution" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="108.0" y="2671.0" />
+      <point x="344.0" y="2671.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="mapelites.behaviours.CardCount" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1842.0570175438597" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="players.ai.explicit.OneStepLookAheadAgent" target="players.HeuristicBasedPlayerInterface" relationship="GENERALIZATION">
+      <point x="-63.5" y="-15.0" />
+      <point x="797.5" y="352.0" />
+      <point x="277.63207547169804" y="352.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="game.log.DummyStateEventDispatcher" target="game.log.RStateEventDispatcher" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.active.reserve.AbstractReserveCard" target="game.action.PlayableAction" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1011.75" y="887.0" />
+      <point x="598.75" y="887.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.action.active.buy.board.RandomBuyBoardCard" target="game.action.random.RandomActionGenerator" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2752.4999999999995" y="953.0" />
+      <point x="2069.9999999999995" y="953.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="statistics.player.WinStaleLostStats" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="872.5570175438596" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="gui.VisualiseState" target="gui.RinascimentoUI" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="log.heuristics.weights.GaussianWeight" target="log.heuristics.weights.WeightGenerator" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="3224.0" y="2649.0" />
+      <point x="3127.5" y="2649.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.action.random.RandomActionGenerator" target="utils.WeightedElement" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2069.9999999999995" y="848.0" />
+      <point x="2198.7499999999995" y="848.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="hyper.agents.eventbased.WeightsSearchSpace" target="hyper.utilities.CompleteAnnotatedSearchSpace" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="900.5" y="2920.0" />
+      <point x="1180.5" y="2920.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.state.vectorise.VectoriseCards" target="game.state.vectorise.Vectoriser" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2871.0" y="3100.0" />
+      <point x="2220.0" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mapelites.behaviours.GameDuration" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1423.0570175438597" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.SeededExtendedGameState" target="game.AbstractGameState" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2865.0" y="146.0" />
+      <point x="2996.0" y="146.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="players.ai.meta.MetaTuningAgent" target="players.BasePlayerInterface" relationship="REALIZATION">
+      <point x="-47.0" y="-38.5" />
+      <point x="47.0" y="352.0" />
+      <point x="89.0" y="352.0" />
+      <point x="89.0" y="191.0" />
+      <point x="153.84905660377353" y="191.0" />
+      <point x="153.84905660377353" y="181.0" />
+      <point x="1146.882075471698" y="181.0" />
+      <point x="-52.25" y="27.5" />
+    </edge>
+    <edge source="game.action.passive.PassiveActionInterface" target="log.entities.action.LoggableAction" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="793.25" y="677.0" />
+      <point x="696.0" y="677.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="statistics.types.NumericalStatistic" target="log.LoggableReady" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1157.8070175438597" y="1590.0" />
+      <point x="750.8070175438596" y="1590.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.OptBattle" target="utils.RandomBased" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="3001.75" y="699.0" />
+      <point x="2555.2499999999995" y="699.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="game.action.active.buy.reserved.BuyReservedCard" target="game.action.active.buy.BuyCard" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="281.0" y="967.0" />
+      <point x="181.75" y="967.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.active.pick.same.ATPickSameCoinsGeneric" target="game.action.ActionType" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="592.0" y="3100.0" />
+      <point x="711.75" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.explicit.OneStepLookAheadAgent" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="63.5" y="-15.0" />
+      <point x="924.5" y="342.0" />
+      <point x="1128.3490566037735" y="342.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="generators.nobles.SplendorNoblesGenerator" target="generators.nobles.NoblesGenerator" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.log.converters.SimpleConverter" target="game.log.converters.EventIdConverter" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1537.5" y="3255.0" />
+      <point x="1640.5" y="3255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.heuristics.nn.decoder.SparseMultilayerDecoder" target="log.heuristics.nn.decoder.MultilayerNNDecoder" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1032.0" y="2090.0" />
+      <point x="1184.75" y="2090.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="players.ai.explicit.mcts.MCTSPlayer" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="37.0" y="-15.0" />
+      <point x="1119.0" y="342.0" />
+      <point x="1128.3490566037735" y="342.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.heuristics.nn.encog.creator.PerceptronCreator" target="log.heuristics.nn.encog.creator.NNCreatorEncog" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2665.8070175438597" y="1714.0" />
+      <point x="2559.5570175438597" y="1714.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.heuristics.PointsHeuristic" target="game.heuristics.Heuristic" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2139.5" y="2624.0" />
+      <point x="1625.5" y="2624.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.log.RinascimentoEventDispatcher" target="game.log.RStateEventDispatcher" relationship="GENERALIZATION">
+      <point x="-71.75" y="-27.5" />
+      <point x="2507.75" y="2397.0" />
+      <point x="2275.0" y="2397.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mapelites.search.StateFeatureBasedSearch" target="mapelites.search.PointBasedSearch" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="378.5" y="2137.0" />
+      <point x="247.0" y="2137.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="hyper.environment.RinascimentoAgentEvaluator" target="hyper.utilities.FullNoisySolutionEvaluator" relationship="REALIZATION">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.log.RinascimentoEventDispatcher" target="log.entities.event.EventLoggerDispatcher" relationship="REALIZATION">
+      <point x="71.75" y="-27.5" />
+      <point x="2651.25" y="2397.0" />
+      <point x="2692.421875" y="2397.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.BudgetExtendedGameState" target="log.entities.event.EventLoggerDispatcher" relationship="REALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="2877.5" y="2397.0" />
+      <point x="2692.421875" y="2397.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.BasePlayerInterface" target="utils.NamedObject" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="mapelites.search.PointBasedSearch" target="mapelites.search.SearchCreator" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="mapelites.loggers.PlayerReserveCardLogger" target="log.entities.event.EventLogger" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="log.heuristics.LinearHeuristic" target="log.heuristics.WeightedHeuristic" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.action.active.buy.BuyCard" target="game.action.PlayableAction" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="181.75" y="887.0" />
+      <point x="598.75" y="887.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.action.active.pick.different.RandomPickDifferentCoins" target="game.action.random.RandomActionGenerator" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2486.9999999999995" y="953.0" />
+      <point x="2069.9999999999995" y="953.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.agents.seededrhea.SeededRHEAAParams" target="hyper.utilities.CompleteAnnotatedSearchSpace" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1463.5" y="2920.0" />
+      <point x="1180.5" y="2920.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="statistics.PositionStats" target="statistics.GameStats" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="statistics.player.ResultStats" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1061.5570175438597" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="benchmarks.RinascimentoLoggedEnv" target="benchmarks.RinascimentoEnv" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="game.state.State" target="game.SeededExtendedGameState" relationship="REALIZATION">
+      <point x="0.0" y="-148.5" />
+      <point x="2996.0" y="226.0" />
+      <point x="2865.0" y="226.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="benchmarks.statistics.FullMetricsBuilder" target="benchmarks.statistics.StatsBuilder" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2173.0" y="3255.0" />
+      <point x="2071.25" y="3255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.entities.event.EventConvertedLogger" target="log.entities.event.EventLogger" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="125.5" y="1172.0" />
+      <point x="643.0" y="1172.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="statistics.PlayerStatsWrapper" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2034.5570175438597" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.state.vectorise.PlayerStateVectoriser" target="game.state.vectorise.Vectoriser" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2654.5" y="3100.0" />
+      <point x="2220.0" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="statistics.player.PlayerNumericalStatistic" target="statistics.GameStats" relationship="REALIZATION">
+      <point x="-61.0" y="-27.5" />
+      <point x="1088.0570175438597" y="1697.0" />
+      <point x="923.8070175438596" y="1697.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="players.ai.general.GeneralPlayerInterface" target="players.BasePlayerInterface" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2317.5" y="181.0" />
+      <point x="1251.382075471698" y="181.0" />
+      <point x="52.25" y="27.5" />
+    </edge>
+    <edge source="game.action.random.RandomActionFeeder" target="utils.RandomBased" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="2424.2499999999995" y="699.0" />
+      <point x="2555.2499999999995" y="699.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="players.ai.seeding.SeedingRHEA" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="40.0" y="-15.0" />
+      <point x="674.0" y="342.0" />
+      <point x="1128.3490566037735" y="342.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.general.DoNothingAgent" target="players.ai.general.GeneralPlayerInterface" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mapelites.behaviours.CardCost" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="31.5" y="-15.0" />
+      <point x="377.0570175438596" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="mapelites.search.EventBasedSearch" target="mapelites.search.PointBasedSearch" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="115.5" y="2137.0" />
+      <point x="247.0" y="2137.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="game.action.Action" target="log.entities.action.LoggableAction" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="598.75" y="677.0" />
+      <point x="696.0" y="677.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.ExtendedGameState" target="game.AbstractGameState" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="3127.0" y="146.0" />
+      <point x="2996.0" y="146.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="statistics.PlayersStats" target="statistics.GameStats" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="750.8070175438596" y="1707.0" />
+      <point x="923.8070175438596" y="1707.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.state.vectorise.VectoriseStateDeep" target="game.state.vectorise.Vectoriser" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1992.0" y="3100.0" />
+      <point x="2220.0" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.active.buy.board.BuyBoardCard" target="game.action.active.buy.BuyCard" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="82.5" y="967.0" />
+      <point x="181.75" y="967.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.explicit.RandomPlayer" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1258.5" y="342.0" />
+      <point x="1128.3490566037735" y="342.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mapelites.behaviours.CardBoughtDeck" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="46.5" y="-15.0" />
+      <point x="139.5" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.log.RStateEventDispatcher" target="log.entities.event.StatefulEventLogger" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.heuristics.weights.UniformWeight" target="log.heuristics.weights.WeightGenerator" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="3031.0" y="2649.0" />
+      <point x="3127.5" y="2649.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="players.ai.explicit.mixer.WeightedPlayer" target="utils.WeightedElement" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="2327.4999999999995" y="848.0" />
+      <point x="2198.7499999999995" y="848.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="hyper.agents.mcts.MCTSAgentFactory" target="hyper.agents.factory.HeuristicAgentFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1681.0" y="2469.0" />
+      <point x="1235.5" y="2469.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.heuristics.StateBasedVectorHeuristic" target="game.heuristics.Heuristic" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1902.5" y="2624.0" />
+      <point x="1625.5" y="2624.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.agents.seededrhea.SeededRHEAAgentFactory" target="hyper.agents.factory.HeuristicAgentFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="984.5" y="2469.0" />
+      <point x="1235.5" y="2469.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.adapters.PositionAdapter" target="statistics.adapters.PositionAdapter" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.StatelessDecEnc" target="game.action.ActionsEncoderDecoder" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.human.ConsolePlayer" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1935.5" y="342.0" />
+      <point x="1128.3490566037735" y="342.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.agents.featurebased.FeatureBasedFixedAgentFactory" target="hyper.agents.featurebased.FeatureBasedAgentFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.agents.eventbased.EventBasedAgentFactory" target="hyper.agents.factory.AgentFactorySpace" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="145.5" y="2364.0" />
+      <point x="464.5" y="2364.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="game.action.active.pick.same.PickSameCoins" target="game.action.active.pick.PickCoins" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="701.5" y="967.0" />
+      <point x="598.75" y="967.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.explicit.ExplicitPlayerInterface" target="players.BasePlayerInterface" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1128.3490566037735" y="191.0" />
+      <point x="2317.5" y="191.0" />
+      <point x="2317.5" y="181.0" />
+      <point x="1251.382075471698" y="181.0" />
+      <point x="52.25" y="27.5" />
+    </edge>
+    <edge source="log.heuristics.nn.encog.creator.SparseMultilayerCreator" target="log.heuristics.nn.encog.creator.MultilayerCreator" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2304.5570175438597" y="1794.0" />
+      <point x="2453.3070175438597" y="1794.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.factory.DoNothingFactory" target="players.ai.factory.SimpleAgentFactory" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="783.5" y="3255.0" />
+      <point x="474.25" y="3255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.agents.rhea.RHEAParams" target="hyper.utilities.CompleteAnnotatedSearchSpace" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="517.0" y="2920.0" />
+      <point x="1180.5" y="2920.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="statistics.PlayersStats" target="log.LoggableReady" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mapelites.behaviours.ReservedCards" target="mapelites.behaviours.LoggingStatistic" relationship="REALIZATION">
+      <point x="-43.0" y="-15.0" />
+      <point x="625.5570175438596" y="1813.0" />
+      <point x="284.26315789473676" y="1813.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.explicit.DoNothingAgent" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1741.5" y="342.0" />
+      <point x="1128.3490566037735" y="342.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.heuristics.nn.encog.topology.EncogAdapter" target="log.heuristics.nn.NNInterface" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.heuristics.PositionHeuristic" target="game.heuristics.Heuristic" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1133.5" y="2624.0" />
+      <point x="1625.5" y="2624.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.seeding.SeedingRHEA" target="players.HeuristicBasedPlayerInterface" relationship="GENERALIZATION">
+      <point x="-40.0" y="-15.0" />
+      <point x="594.0" y="352.0" />
+      <point x="277.63207547169804" y="352.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="hyper.agents.meta.MetaAgentFactory" target="hyper.agents.factory.HeuristicAgentFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="736.0" y="2469.0" />
+      <point x="1235.5" y="2469.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="players.ai.explicit.mixer.MixerAgent" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="40.5" y="-38.5" />
+      <point x="329.5" y="342.0" />
+      <point x="1128.3490566037735" y="342.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.state.vectorise.AllPlayersVectoriser" target="game.state.vectorise.Vectoriser" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.heuristics.WinHeuristic" target="game.heuristics.PositionHeuristic" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.GeneralPlayerInterface" target="players.BasePlayerInterface" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2568.5" y="191.0" />
+      <point x="2317.5" y="191.0" />
+      <point x="2317.5" y="181.0" />
+      <point x="1251.382075471698" y="181.0" />
+      <point x="52.25" y="27.5" />
+    </edge>
+    <edge source="players.ai.explicit.RandomEventLogTestPlayer" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1495.5" y="342.0" />
+      <point x="1128.3490566037735" y="342.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.factory.SafeRandomFactory" target="players.ai.factory.SimpleAgentFactory" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="104.5" y="3255.0" />
+      <point x="474.25" y="3255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.TimeSeries" target="log.Logger" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.action.active.pick.different.ATPickDifferentCoinsGeneric" target="game.action.ActionType" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1083.5" y="3100.0" />
+      <point x="711.75" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="statistics.player.WinGameStats" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1236.5570175438597" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="statistics.player.PlayerNumericalStatistic" target="statistics.types.NumericalStatistic" relationship="GENERALIZATION">
+      <point x="61.0" y="-27.5" />
+      <point x="1210.0570175438597" y="1707.0" />
+      <point x="1157.8070175438597" y="1707.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.human.UIPlayer" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="2122.0" y="342.0" />
+      <point x="1128.3490566037735" y="342.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.active.pick.PickCoins" target="game.action.PlayableAction" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.adapters.WonStaleLossAdapter" target="statistics.adapters.WonStaleLossAdapter" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="utils.math.combination.simple.PrecomputedCombinations" target="utils.math.combination.Combinations" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1058.5" y="3255.0" />
+      <point x="1182.25" y="3255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="statistics.types.NumericalStatistic" target="statistics.types.StatisticInterface" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1157.8070175438597" y="1580.0" />
+      <point x="1110.8070175438597" y="1580.0" />
+      <point x="46.5" y="15.0" />
+    </edge>
+    <edge source="players.ai.explicit.mcts.MCTSRootNode" target="players.ai.explicit.mcts.MCTSNode" relationship="GENERALIZATION">
+      <point x="0.0" y="-115.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.meta.MetaTuningAgent" target="players.HeuristicBasedPlayerInterface" relationship="GENERALIZATION">
+      <point x="47.0" y="-38.5" />
+      <point x="141.0" y="352.0" />
+      <point x="277.63207547169804" y="352.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="game.log.REventSignature" target="log.entities.event.EventSignature" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="game.action.active.buy.reserved.ATBuyReservedCard" target="game.action.ActionType" relationship="REALIZATION">
+      <point x="2.2737367544323206E-13" y="-15.0" />
+      <point x="106.50000000000023" y="3100.0" />
+      <point x="711.75" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.log.converters.IdentityConverter" target="game.log.converters.EventIdConverter" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1743.5" y="3255.0" />
+      <point x="1640.5" y="3255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.heuristics.nn.decoder.MultilayerNNDecoder" target="log.heuristics.nn.NNDecoder" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1184.75" y="1963.0" />
+      <point x="1301.0" y="1963.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.environment.RAEPooledEnemies" target="hyper.environment.RinascimentoAgentEvaluator" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="log.Logger" target="log.LoggableReady" relationship="REALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="586.3070175438596" y="1600.0" />
+      <point x="750.8070175438596" y="1600.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mapelites.behaviours.Points" target="statistics.player.PlayerNumericalStatistic" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1703.0570175438597" y="1803.0" />
+      <point x="1149.0570175438597" y="1803.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="log.entities.event.EventVectorLogger" target="log.entities.event.EventConvertedLogger" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.action.active.buy.board.ATBuyBoardCard" target="game.action.ActionType" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="831.5" y="3100.0" />
+      <point x="711.75" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.agents.eventbased.CombinedSearchSpace" target="hyper.utilities.CompleteAnnotatedSearchSpace" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="1882.5" y="2920.0" />
+      <point x="1180.5" y="2920.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="utils.WeightedElement" target="utils.RandomBased" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="2198.7499999999995" y="699.0" />
+      <point x="2555.2499999999995" y="699.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="game.action.active.pick.different.PickDifferentCoins" target="game.action.active.pick.PickCoins" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="496.0" y="967.0" />
+      <point x="598.75" y="967.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="game.state.vectorise.VectoriseNobles" target="game.state.vectorise.Vectoriser" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="2434.0" y="3100.0" />
+      <point x="2220.0" y="3100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="players.ai.meta.MetaTuningAgent" target="players.ai.explicit.ExplicitPlayerInterface" relationship="REALIZATION">
+      <point x="-47.0" y="-38.5" />
+      <point x="47.0" y="352.0" />
+      <point x="89.0" y="352.0" />
+      <point x="89.0" y="332.0" />
+      <point x="1128.3490566037735" y="332.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="log.heuristics.nn.decoder.SeedlessSparseMultilayerDecoder" target="log.heuristics.nn.decoder.MultilayerNNDecoder" relationship="GENERALIZATION">
+      <point x="0.0" y="-27.5" />
+      <point x="1337.5" y="2090.0" />
+      <point x="1184.75" y="2090.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="players.ai.explicit.mcts.MCTSPlayer" target="players.HeuristicBasedPlayerInterface" relationship="GENERALIZATION">
+      <point x="-37.0" y="-15.0" />
+      <point x="1045.0" y="352.0" />
+      <point x="277.63207547169804" y="352.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="hyper.agents.factory.SearchSpaceBasedFactory" target="players.ai.factory.SimpleAgentFactory" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="360.0" y="3255.0" />
+      <point x="474.25" y="3255.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="hyper.agents.eventbased.EventBasedFixedAgentFactory" target="hyper.agents.eventbased.EventBasedAgentFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.3976572958500669" showDependencies="false" x="1408.4043090388823" y="1598.0617741121023" />
+  <SelectedNodes>
+    <node>statistics.player.WinStaleLostStats</node>
+    <node>statistics.PositionStats</node>
+    <node>log.Logger</node>
+    <node>statistics.types.NumericalStatistic</node>
+    <node>mapelites.behaviours.CardBoughtDeck</node>
+    <node>log.LoggableReady</node>
+    <node>statistics.PlayersStats</node>
+    <node>mapelites.behaviours.CardCount</node>
+    <node>mapelites.behaviours.ReservedCards</node>
+    <node>statistics.player.ResultStats</node>
+    <node>mapelites.behaviours.LoggingStatistic</node>
+    <node>mapelites.behaviours.Nobles</node>
+    <node>statistics.player.PlayerNumericalStatistic</node>
+    <node>statistics.PlayerStatsWrapper</node>
+    <node>log.TimeSeries</node>
+    <node>mapelites.behaviours.GameDuration</node>
+    <node>mapelites.behaviours.CardCost</node>
+    <node>statistics.GameStats</node>
+    <node>mapelites.behaviours.Points</node>
+    <node>mapelites.behaviours.TotalCoins</node>
+    <node>statistics.player.WinGameStats</node>
+    <node>statistics.types.StatisticInterface</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

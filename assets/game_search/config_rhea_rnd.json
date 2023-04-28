@@ -1,0 +1,35 @@
+{
+  "NTBEA": "HERE BELOW THE NTBEA PARAMETERS",
+  "ntbea/budget": 2000,
+  "ntbea/k": 1,
+  "ntbea/eps": 0.7,
+  "ntbea/checks": 200,
+
+  "RINASCIMENTO": "HERE BELOW THE RINASCIMENTO PARAMETERS",
+  "game/space": "assets/RinascimentoParamsTight.json",
+  "game/threads": 10,
+  "game/budget": 1000,
+
+  "PLAYER SAMPLER": "HERE BELOW THE PLAYER SAMPLER PARAMETERS",
+  "fitness/player_sampler": "base",
+  "fitness/player_sampler/base/type": "RHEA",
+  "fitness/player_sampler/base/config": [0,2,3,1,1,1,2,0,1,2],
+
+  "OPPONENT FACTORY": "HERE BELOW THE OPPONENT FACTORY PARAMETERS",
+  "fitness/opponent/type": "Random",
+
+  "FITNESS": "HERE BELOW THE GENERIC FITNESS PARAMETERS",
+  "fitness/samples": 1,
+  "fitness/repeats": 100,
+  "fitness/true/samples": 1,
+  "fitness/true/repeats": 10000,
+  "fitness/stats": [],
+  "fitness/performance" : "win",
+
+  "GAMEPLAY FITNESS": "HERE BELOW THE GAMEPLAY FITNESS PARAMETERS",
+  "fitness/gameplay": "2Player",
+
+  "GENOTYPE FITNESS": "HERE BELOW THE GENOTYPE EVALUATOR PARAMETERS",
+  "fitness/genotype/type": "Chebyshev",
+  "fitness/genotype/reference": "assets/defaultx2/"
+}

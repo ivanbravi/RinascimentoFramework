@@ -20,7 +20,10 @@ public class SparseMultilayerCreator extends MultilayerCreator {
 		super.setupNetwork(network);
 
 		if(disabledLists == null){
-			createConnectionLists(network);
+			SparseMultilayerDecoder d = (SparseMultilayerDecoder) this.decoder;
+			long seed = d.getSeed();
+			int[] rndConnections = d.getRndConnections();
+			this.disabledLists = connectionLists(network, seed, rndConnections);
 		}
 
 		for(Integer l: disabledLists.keySet()){
@@ -31,12 +34,9 @@ public class SparseMultilayerCreator extends MultilayerCreator {
 		return network;
 	}
 
-	private void createConnectionLists(SparseFFNetwork network){
-		SparseMultilayerDecoder d = (SparseMultilayerDecoder) this.decoder;
-		long seed = d.getSeed();
+	public static HashMap<Integer,List<Integer>> connectionLists(SparseFFNetwork network, long seed, int[] rndConnections){
+		HashMap<Integer,List<Integer>> disabledLists;
 		Random r = new Random(seed);
-		int[] rndConnections = d.getRndConnections();
-
 		disabledLists = new HashMap<>();
 
 		for(int sourceLayer=0; sourceLayer<rndConnections.length; sourceLayer++) {
@@ -47,15 +47,44 @@ public class SparseMultilayerCreator extends MultilayerCreator {
 				disabledLists.put(sourceLayer,disabledIndices);
 			}
 		}
+		return disabledLists;
 	}
 
-	private List<Integer> createConnectionsList(int cCount, Random r, int selection){
+	private static List<Integer> createConnectionsList(int cCount, Random r, int selection){
 		ArrayList<Integer> l = new ArrayList<>();
 		for(int i=0; i<cCount; i++)
 			l.add(i);
 		Collections.shuffle(l,r);
 		return l.subList(0,selection);
 	}
+
+//
+//
+//	private void createConnectionLists(SparseFFNetwork network){
+//		SparseMultilayerDecoder d = (SparseMultilayerDecoder) this.decoder;
+//		long seed = d.getSeed();
+//		Random r = new Random(seed);
+//		int[] rndConnections = d.getRndConnections();
+//
+//		disabledLists = new HashMap<>();
+//
+//		for(int sourceLayer=0; sourceLayer<rndConnections.length; sourceLayer++) {
+//			int connectionsToDisable = rndConnections[sourceLayer];
+//			if (connectionsToDisable != 0) {
+//				int cCount = network.connectionsFromLayer(sourceLayer);
+//				List<Integer> disabledIndices = createConnectionsList(cCount,r,connectionsToDisable);
+//				disabledLists.put(sourceLayer,disabledIndices);
+//			}
+//		}
+//	}
+//
+//	private List<Integer> createConnectionsList(int cCount, Random r, int selection){
+//		ArrayList<Integer> l = new ArrayList<>();
+//		for(int i=0; i<cCount; i++)
+//			l.add(i);
+//		Collections.shuffle(l,r);
+//		return l.subList(0,selection);
+//	}
 
 
 }

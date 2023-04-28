@@ -49,7 +49,7 @@ public class Noble {
 
 	public static Noble[] pickNobles(Noble[] all, int amount){
 		if(amount<=0){
-			return null;
+			return new Noble[0];
 		}
 
 		if(amount>all.length){

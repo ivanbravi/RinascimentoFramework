@@ -5,7 +5,7 @@ import game.heuristics.StateBasedVectorHeuristic;
 import game.state.vectorise.Vectoriser;
 import hyper.agents.eventbased.CombinedSearchSpace;
 import hyper.agents.factory.AgentFactorySpace;
-import hyper.agents.factory.HeuristicAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
 import log.heuristics.WeightedHeuristic;
 import players.BasePlayerInterface;
 
@@ -14,11 +14,11 @@ public class FeatureBasedAgentFactory extends AgentFactorySpace {
 	private static final int agentSpaceIndex = 0;
 	private static final int heuristicSpaceIndex = 1;
 
-	private HeuristicAgentFactory agentFactory;
+	private HeuristicAgentFactorySpace agentFactory;
 	private WeightedHeuristic h;
 	private Vectoriser v;
 
-	public FeatureBasedAgentFactory(HeuristicAgentFactory agentFactory, WeightedHeuristic h, Vectoriser v){
+	public FeatureBasedAgentFactory(HeuristicAgentFactorySpace agentFactory, WeightedHeuristic h, Vectoriser v){
 		this.agentFactory = agentFactory;
 		this.h = h;
 		this.v = v;

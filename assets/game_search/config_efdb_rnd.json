@@ -1,0 +1,48 @@
+{
+  "NTBEA": "HERE BELOW THE NTBEA PARAMETERS",
+  "ntbea/budget": 400,
+  "ntbea/k": 1,
+  "ntbea/eps": 0.7,
+  "ntbea/checks": 40,
+
+  "RINASCIMENTO": "HERE BELOW THE RINASCIMENTO PARAMETERS",
+  "game/space": "assets/RinascimentoParamsTight.json",
+  "game/space/reduction/rate": 1.0,
+  "game/space/reduction/around": "assets/defaultx2/",
+  "game/threads": 10,
+  "game/budget": 1000,
+
+  "PLAYER SAMPLER": "HERE BELOW THE PLAYER SAMPLER PARAMETERS",
+  "fitness/player_sampler": "database",
+  "fitness/player_sampler/database/file":"agents/db/eb_id_db.json",
+  "fitness/player_sampler/database/sampling":"linear",
+
+  "OPPONENT FACTORY": "HERE BELOW THE OPPONENT FACTORY PARAMETERS",
+  "fitness/opponent/type": "RND",
+
+  "FITNESS": "HERE BELOW THE GENERIC FITNESS PARAMETERS",
+  "fitness/samples": 100,
+  "fitness/repeats": 30,
+  "fitness/true/samples": 369,
+  "fitness/true/repeats": 50,
+  "fitness/stats": ["CardCount","TotalCoins"],
+  "fitness/performance" : "win",
+
+  "GAMEPLAY FITNESS": "HERE BELOW THE GAMEPLAY FITNESS PARAMETERS",
+  "fitness/gameplay": "matrix",
+  "fitness/gameplay/matrix/similarity": "divergence",
+  "fitness/gameplay/matrix/similarity/divergence/smoothing": 0.001,
+  "fitness/gameplay/matrix/metrics": "assets/game_search/behaviours.json",
+  "fitness/gameplay/matrix/target": "assets/game_search/grid.json",
+  "fitness/gameplay/matrix/filters": [{
+    "type": "filler",
+    "filter": {
+      "type": "mean",
+      "size": 1
+    },
+    "decay": 0.8
+  }],
+
+  "GENOTYPE FITNESS": "HERE BELOW THE GENOTYPE EVALUATOR PARAMETERS",
+  "fitness/genotype/type": "None"
+}

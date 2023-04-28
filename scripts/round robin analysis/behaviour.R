@@ -2,6 +2,7 @@ library("rjson")
 library("ggplot2")
 library("reshape2")
 
+folder=""
 
 data <- fromJSON(file=paste0(folder,"tournament results-list.json"));
 playerNames <- fromJSON(file=paste0(folder,"player names.json"));
@@ -12,9 +13,9 @@ filterPlayerStats <- function(data, player){
   df <- data.frame();
   statsToSkip <- c("win ratio", "Result");
   playersToSkip <- c("OneStepLookAhead_1",
-                     "RHEA0_2",
-                     "MCTS0_3",
-                     "SeededRHEA0_4",
+                     # "RHEA0_2",
+                     # "MCTS0_3",
+                     # "SeededRHEA0_4",
                      "RHEA1_5",
                      #"EBH-simple-RHEA-linear_6",
                      #"EBH-simple-RHEA-poly,2_7",

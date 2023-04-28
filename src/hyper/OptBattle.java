@@ -13,8 +13,8 @@ import game.heuristics.PointsHeuristic;
 import hyper.agents.factory.AgentFactorySpace;
 import hyper.environment.RAEPooledEnemies;
 import hyper.environment.RinascimentoAgentEvaluator;
-import hyper.agents.rhea.RHEAAgentFactory;
-import hyper.agents.seededrhea.SeededRHEAAgentFactory;
+import hyper.agents.rhea.RHEAAgentFactorySpace;
+import hyper.agents.seededrhea.SeededRHEAAgentFactorySpace;
 import hyper.utilities.CompleteAnnotatedSearchSpace;
 import hyper.utilities.DiscreteLiniariser;
 import hyper.utilities.Distance;
@@ -216,11 +216,11 @@ public class OptBattle  extends RandomBased{
 
 		ArrayList<AgentFactorySpace> spaces = new ArrayList<>();
 
-		AgentFactorySpace space1 = new RHEAAgentFactory().
+		AgentFactorySpace space1 = new RHEAAgentFactorySpace().
 				setHeuristic(new PointsHeuristic()).
 				setSearchSpace(CompleteAnnotatedSearchSpace.load("agents/RHEAParams.json"));
 
-		AgentFactorySpace space2 = new SeededRHEAAgentFactory().
+		AgentFactorySpace space2 = new SeededRHEAAgentFactorySpace().
 				setHeuristic(new PointsHeuristic()).
 				setSearchSpace(CompleteAnnotatedSearchSpace.load("agents/SeededRHEAParams.json"));
 

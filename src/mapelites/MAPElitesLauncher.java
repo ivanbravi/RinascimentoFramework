@@ -17,6 +17,7 @@ import ui.ConsoleUI;
 import ui.elements.RectElement;
 import ui.elements.RectSourced;
 import utils.loaders.EasyJSON;
+import utils.loaders.FileStringLoad;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -41,6 +42,7 @@ public class MAPElitesLauncher {
 
 	//LOGGING
 	private static LogGroup lg = new LogGroup("MAP-Elites - "+(new SimpleDateFormat("yy:MM:dd:HH:mm:ss")).format(new Date())+"/");
+	private static String configFilePath;
 
 	public static void main(String[] args) {
 
@@ -48,9 +50,10 @@ public class MAPElitesLauncher {
 			System.out.println("Missing parameter config file!");
 			return;
 		}
+		configFilePath = args[0];
 		JsonObject mapArgs = EasyJSON.getObject(args[0]);
 
-		RinascimentoEnv.setTHREADS(mapArgs.get("search/threads").getAsInt());
+		RinascimentoEnv.setTHREADS(mapArgs.get("game/threads").getAsInt());
 		searchBootIterations = mapArgs.get("search/bootiterations").getAsInt();
 		searchTotalIterations = mapArgs.get("search/totaliterations").getAsInt();
 		String searchType = mapArgs.get("search/type").getAsString();
@@ -107,6 +110,8 @@ public class MAPElitesLauncher {
 		lg.add("space",s.getBs().getSpace());
 		lg.add("spaceHistory",s.getSolutionHistory());
 		lg.add("spaceSize",s.getBs().getDimensions());
+
+		lg.add("p", FileStringLoad.fromPath(configFilePath));
 
 		lg.saveLog();
 	}

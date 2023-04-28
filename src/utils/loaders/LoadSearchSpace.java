@@ -11,52 +11,46 @@ import game.log.converters.SimpleConverter;
 import game.state.vectorise.*;
 import hyper.agents.eventbased.*;
 import hyper.agents.factory.AgentFactorySpace;
-import hyper.agents.factory.HeuristicAgentFactory;
+import hyper.agents.factory.HeuristicAgentFactorySpace;
 import hyper.agents.featurebased.FeatureBasedAgentFactory;
 import hyper.agents.featurebased.FeatureBasedFixedAgentFactory;
-import hyper.agents.mcts.MCTSAgentFactory;
-import hyper.agents.meta.MetaAgentFactory;
-import hyper.agents.mixed.MixerFactorySpace;
-import hyper.agents.rhea.RHEAAgentFactory;
-import hyper.agents.seededrhea.SeededRHEAAgentFactory;
+import hyper.agents.mcts.MCTSAgentFactorySpace;
+import hyper.agents.meta.MetaAgentFactorySpace;
+import hyper.agents.mixed.MixerFactorySpaceSpace;
+import hyper.agents.rhea.RHEAAgentFactorySpace;
+import hyper.agents.seededrhea.SeededRHEAAgentFactorySpace;
 import hyper.utilities.CompleteAnnotatedSearchSpace;
-import log.heuristics.LinearHeuristic;
-import log.heuristics.NNHeuristic;
-import log.heuristics.PolynomialHeuristic;
-import log.heuristics.WeightedHeuristic;
+import log.heuristics.*;
 import log.heuristics.nn.*;
 import log.heuristics.nn.decoder.MultilayerNNDecoder;
 import log.heuristics.nn.decoder.PerceptronDecoder;
+import log.heuristics.nn.decoder.SeedlessSparseMultilayerDecoder;
 import log.heuristics.nn.decoder.SparseMultilayerDecoder;
 import log.heuristics.nn.encog.creator.MultilayerCreator;
 import log.heuristics.nn.encog.creator.PerceptronCreator;
+import log.heuristics.nn.encog.creator.SeedlessSparseMultilayerCreator;
 import log.heuristics.nn.encog.creator.SparseMultilayerCreator;
-import players.BasePlayerInterface;
-import sun.management.Agent;
 
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.Reader;
 import java.io.Writer;
 import java.util.Arrays;
-import java.util.Random;
 import java.util.regex.Pattern;
 
 public class LoadSearchSpace {
 
-	public LoadSearchSpace(){
+	private LoadSearchSpace(){}
 
-	}
-
-	private HeuristicAgentFactory loadSimpleFactorySpace(String type, String paramFile){
-		HeuristicAgentFactory afs = null;
+	private static HeuristicAgentFactorySpace loadSimpleFactorySpace(String type, String paramFile){
+		HeuristicAgentFactorySpace afs = null;
 
 		if(type.equals("RHEA")){
-			afs = new RHEAAgentFactory();
+			afs = new RHEAAgentFactorySpace();
 		} else if(type.equals("SeededRHEA") || type.equals("SRHEA")){
-			afs = new SeededRHEAAgentFactory();
+			afs = new SeededRHEAAgentFactorySpace();
 		} else if(type.equals("MCTS")){
-			afs = new MCTSAgentFactory();
+			afs = new MCTSAgentFactorySpace();
 		}
 
 		afs.setHeuristic(new PointsHeuristic()).
@@ -65,7 +59,7 @@ public class LoadSearchSpace {
 		return afs;
 	}
 
-	public String defaultSpace(String type){
+	public static String defaultSpace(String type){
 		if(type.equals("RHEA")){
 			return "agents/RHEAParams.json";
 		} else if(type.equals("SeededRHEA") || type.equals("SRHEA")){
@@ -76,7 +70,13 @@ public class LoadSearchSpace {
 		return null;
 	}
 
-	public WeightedHeuristic decodeWeightedHeuristic(String type,int size){
+	public static WeightedHeuristic decodeWeightedHeuristicWithWeights(String type,int size, double[] weights){
+		WeightedHeuristic wh = decodeWeightedHeuristic(type,size);
+		wh.setWeights(weights);
+		return wh;
+	}
+
+	public static WeightedHeuristic decodeWeightedHeuristic(String type,int size){
 		if(type.equals("linear")){
 			return new LinearHeuristic(size);
 		}else if(type.split(",")[0].equalsIgnoreCase("poly")){
@@ -89,8 +89,13 @@ public class LoadSearchSpace {
 				PerceptronDecoder decoder = new PerceptronDecoder(code);
 				creator = new PerceptronCreator(decoder);
 			}else if(code.contains("(") && code.contains("[")){
-				SparseMultilayerDecoder decoder = new SparseMultilayerDecoder(code);
-				creator = new SparseMultilayerCreator(decoder);
+				if(code.contains("*")){
+					SeedlessSparseMultilayerDecoder decoder = new SeedlessSparseMultilayerDecoder(code);
+					return new HyperNNHeuristic(new SeedlessSparseMultilayerCreator(decoder));
+				}else {
+					SparseMultilayerDecoder decoder = new SparseMultilayerDecoder(code);
+					creator = new SparseMultilayerCreator(decoder);
+				}
 			}else{
 				MultilayerNNDecoder decoder = new MultilayerNNDecoder(code);
 				creator =  new MultilayerCreator(decoder);
@@ -107,25 +112,25 @@ public class LoadSearchSpace {
 		return new IdentityConverter();
 	}
 
-	private AgentFactorySpace loadFacorySpaceMeta(String type){
+	private static AgentFactorySpace loadFacorySpaceMeta(String type){
 		/*			META AGENT			*/
 		String metaType = type.replaceAll("META-", "");
 		String metaParamFile = defaultSpace(metaType);
 		AgentFactorySpace meta = loadSimpleFactorySpace(metaType, metaParamFile);
-		return new MetaAgentFactory(meta);
+		return new MetaAgentFactorySpace(meta);
 	}
 
-	private AgentFactorySpace loadFactorySpaceMix(String type){
+	private static AgentFactorySpace loadFactorySpaceMix(String type){
 		// e.g.: MIX-0.8-MCTS
 		String deMix = type.substring(4);
 		String mixed_agent = deMix.substring(deMix.indexOf("-")+1);
 		double weight = Double.parseDouble(deMix.substring(0,deMix.indexOf("-")));
 		//here check if default mixed_agent needs to be further filtered
 		AgentFactorySpace mixed_afs = loadFactorySpace(mixed_agent,defaultSpace(mixed_agent),null);
-		return new MixerFactorySpace(mixed_afs,weight);
+		return new MixerFactorySpaceSpace(mixed_afs,weight);
 	}
 
-	private AgentFactorySpace loadFactorySpaceEventBased(String type){
+	private static AgentFactorySpace loadFactorySpaceEventBased(String type){
 		/*			EVENT-BASED HEURISTIC AGENT			*/
 		// format: EHB-CONVERTER-TYPE-HEURISTIC-SAMPLING
 		// e.g.: EHB-simple-RHEA-linear-11
@@ -142,7 +147,7 @@ public class LoadSearchSpace {
 		boolean isWeightSpace = isPositiveIntNumber(sampling);
 
 		EventIdConverter converter = loadConverter(converterType);
-		HeuristicAgentFactory agentSpace = loadSimpleFactorySpace(agentType,defaultSpace(agentType));
+		HeuristicAgentFactorySpace agentSpace = loadSimpleFactorySpace(agentType,defaultSpace(agentType));
 		WeightedHeuristic wh = decodeWeightedHeuristic(heuristicType, converter.idCount());
 		CompleteAnnotatedSearchSpace heuristicSpace;
 		EventBasedAgentFactory afs;
@@ -171,7 +176,7 @@ public class LoadSearchSpace {
 		return afs;
 	}
 
-	private AgentFactorySpace loadFactorySpaceStateBased(String type, Parameters p){
+	private static AgentFactorySpace loadFactorySpaceStateBased(String type, Parameters p){
 		/*			STATE-BASED HEURISTIC AGENT			*/
 		// format: SVB-VECTORISER-TYPE-HEURISTIC-SAMPLING
 		// e.g.: SVB-S-RHEA-linear-11
@@ -188,7 +193,7 @@ public class LoadSearchSpace {
 		boolean isWeightSpace = isPositiveIntNumber(sampling);
 
 		Vectoriser v = decodeVectoriser(vectoriserCode,p);
-		HeuristicAgentFactory agentSpace = loadSimpleFactorySpace(agentType,defaultSpace(agentType));
+		HeuristicAgentFactorySpace agentSpace = loadSimpleFactorySpace(agentType,defaultSpace(agentType));
 		WeightedHeuristic wh = decodeWeightedHeuristic(heuristicType, v.size());
 		CompleteAnnotatedSearchSpace heuristicSpace;
 		FeatureBasedAgentFactory afs;
@@ -217,24 +222,64 @@ public class LoadSearchSpace {
 		return afs;
 	}
 
-	public AgentFactorySpace loadFactorySpace(String type, String paramFile, Parameters p){
+	public static boolean isSimpleFactory(String type){
+		return type.equals("RHEA") || type.equals("SeededRHEA") || type.equals("SRHEA") || type.equals("MCTS");
+	}
 
-		String subType = type.split("-")[0];
+	public static AgentFactorySpace loadFactorySpace(String type, String paramFile, Parameters p){
 
-		if(type.equals("RHEA") || type.equals("SeededRHEA") || type.equals("SRHEA") || type.equals("MCTS")){
-			return loadSimpleFactorySpace(type,paramFile);
-		} else if(type.substring(0,Math.min(type.length(),5)).equals("META-")) {
+		if(isSimpleFactory(type)){
+			if(paramFile==null)
+				return loadSimpleFactorySpace(type,defaultSpace(type));
+			else
+				return loadSimpleFactorySpace(type,paramFile);
+		} else if(isTypeMeta(type)) { // META-
 			return loadFacorySpaceMeta(type);
-		}else if(subType.equals("MIX")){
+		}else if(isTypeMixture(type)){ // MIX-
 			return loadFactorySpaceMix(type);
-		}else if(subType.equals("EHB")){
+		}else if(isTypeEventBased(type)){ // EHB-
 			return loadFactorySpaceEventBased(type);
-		}else if(subType.equals("SVB")){
+		}else if(isTypeStateBased(type)){ // SVB-
 			return loadFactorySpaceStateBased(type,p);
 		}
 
 		System.out.println("WRONG AGENT TYPE: "+type);
 		return null;
+	}
+
+	public static boolean isFreeWeightsHeuristicAgent(String type){ return type.equals("EHB-any") || type.equals("SVB-any");}
+
+	public static boolean isTypeEventBased(String type){
+		return checkIfIsSubtype(type, "EHB");
+	}
+
+	public static boolean isTypeStateBased(String type){
+		return checkIfIsSubtype(type, "SVB");
+	}
+
+	public static boolean isTypeMixture(String type){
+		return checkIfIsSubtype(type, "MIX");
+	}
+
+	public static boolean isTypeMeta(String type){
+		return checkIfIsSubtype(type, "META");
+	}
+
+	private static boolean checkIfIsSubtype(String type, String wantedSubtype){
+		if(!isSubTyped(type))
+			return false;
+		if(getSubType(type).equals(wantedSubtype)){
+			return true;
+		}
+		return false;
+	}
+
+	private static boolean isSubTyped(String type){
+		return type.contains("-");
+	}
+
+	private static String getSubType(String type){
+		return type.split("-")[0];
 	}
 
 	public static Vectoriser decodeVectoriser(String vectoriserCode, Parameters p){
@@ -253,7 +298,7 @@ public class LoadSearchSpace {
 		return v;
 	}
 
-	public int[] rangeToIndex(double[] w, AnnotatedSearchSpace ass){
+	public static int[] rangeToIndex(double[] w, AnnotatedSearchSpace ass){
 		if(w.length!=ass.nDims())
 			return null;
 		int[] i = new int[w.length];
@@ -286,19 +331,29 @@ public class LoadSearchSpace {
 		}
 	}
 
-	private boolean isPositiveIntNumber(String s){
+	private static boolean isPositiveIntNumber(String s){
 		Pattern p = Pattern.compile("\\d+");
 		return p.matcher(s).matches();
 	}
 
 	public static void main(String[] args){
 		LoadSearchSpace lss = new LoadSearchSpace();
-		AgentFactorySpace afs = lss.loadFactorySpaceEventBased("EHB-simple-RHEA-nn,TANH,5,(3),2,1,[0]-11");
-		System.out.println(afs);
-		int[] rndPoint = afs.randomPoint(new Random(0));
-		BasePlayerInterface p = afs.agent(rndPoint);
-		System.out.println(p);
 
+		// <DECODE AGENT SEARCH SPACE>
+//		String code = "EHB-simple-RHEA-nn,TANH,5,(3),2,1,[0]-11";
+//		AgentFactorySpace afs = lss.loadFactorySpaceEventBased(code);
+//		System.out.println(afs);
+//		int[] rndPoint = afs.randomPoint(new Random(0));
+//		BasePlayerInterface p = afs.agent(rndPoint);
+//		System.out.println(p);
+
+		// <DECODE WEIGHTED HEURISTIC SEARCH SPACE>
+		String type = "nn,TANH,192,(5184),30,1,[*]";
+		Vectoriser v = LoadSearchSpace.decodeVectoriser("SSPP", Parameters.load("assets/defaultx2/"));
+		WeightedHeuristic wh = lss.decodeWeightedHeuristic(type, v.size());
+		System.out.println(wh.toString());
+
+		// <READ ANN WEIGHTS FILE>
 //		Random rnd = new Random();
 //		String file = "agents/nn-106.json";
 //		int size = 106;

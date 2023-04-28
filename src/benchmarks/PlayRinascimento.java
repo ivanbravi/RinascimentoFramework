@@ -10,7 +10,7 @@ import game.budget.ActionsBudget;
 import game.heuristics.PointsHeuristic;
 import game.log.RinascimentoEventDispatcher;
 import hyper.agents.factory.AgentFactorySpace;
-import hyper.agents.meta.MetaAgentFactory;
+import hyper.agents.meta.MetaAgentFactorySpace;
 import hyper.utilities.CompleteAnnotatedSearchSpace;
 import log.LogGroup;
 import players.BasePlayerInterface;
@@ -33,7 +33,7 @@ import java.util.HashMap;
 public class PlayRinascimento {
 
 	public static boolean VERBOSE = false;
-	public static int threads = 4;
+	public static int threads = 1;
 
 	public boolean LOG = true;
 
@@ -119,11 +119,10 @@ public class PlayRinascimento {
 		boolean isFactorySpace = !isSimple;
 
 		if(isFactorySpace){
-			LoadSearchSpace lss = new LoadSearchSpace();
-			String paramFile = lss.defaultSpace(type);
-			AgentFactorySpace afs = lss.loadFactorySpace(type, paramFile,gameParameters);
+			String paramFile = LoadSearchSpace.defaultSpace(type);
+			AgentFactorySpace afs = LoadSearchSpace.loadFactorySpace(type, paramFile,gameParameters);
 			if(isMeta){
-				AgentFactorySpace meta = new MetaAgentFactory(afs).
+				AgentFactorySpace meta = new MetaAgentFactorySpace(afs).
 						setHeuristic(new PointsHeuristic()).
 						setSearchSpace(CompleteAnnotatedSearchSpace.load("agents/MetaParams.json"));
 				p = meta.agent(config);
@@ -161,18 +160,28 @@ public class PlayRinascimento {
 	public static void main(String[] args){
 		if(TEST){
 			System.out.println("PlayRinascimento RUNNING TEST");
-			String configFileName = "test"; // agents
 
 			// assets/defaultx2/ agents/several/ 10 true metrics
-			args = new String[]{"assets/defaultx2/",
-
-					"agents/" +configFileName+".json",
-					//"agents/several/",
-
-					"1000",
-					"4",
+//			args = new String[]{
+//					"assets/defaultx2/", 					// gameVersion
+//
+//					"agents/" +configFileName+".json",		// configPath: single file
+//					//"agents/several/",				    // configPath: folder with multiple config files
+//
+//					"1000",									// nGames
+//					"4",									// threads
+//					"true",									// logging active
+//					"metrics"								// stats type: "winrate" or "metrics"
+//			};
+			//assets/defaultx2/  10000 8 true metrics
+			args = new String[]{
+					"assets/defaultx2/",
+					"agents/test_EF.json",
+					"10000",
+					"1",
 					"true",
-					"metrics"};
+					"metrics"
+			};
 		}
 
 		if(args.length!=6){
@@ -222,7 +231,11 @@ public class PlayRinascimento {
 		profiler.stop();
 
 		if(profiler!=null){
-			System.out.println("{\n\"results\": "+result+",\n\"profiler\":\""+profiler.toString()+"\"\n}");
+//			System.out.println("************** RESULTS *************");
+//			System.out.println("{\n\"results\": "+result+",\n}");
+			System.out.println("********* PROFILER RESULTS *********");
+			System.out.println(profiler.toString());
+			System.out.println("************************************");
 		}else {
 			System.out.println(result);
 		}
