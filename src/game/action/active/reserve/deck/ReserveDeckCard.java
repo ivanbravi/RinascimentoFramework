@@ -6,6 +6,7 @@ import game.state.State;
 import log.entities.action.Action;
 
 import java.util.HashMap;
+import java.util.Objects;
 
 public class ReserveDeckCard extends AbstractReserveCard {
 
@@ -87,4 +88,8 @@ public class ReserveDeckCard extends AbstractReserveCard {
 	}
 
 
+	@Override
+	public int hashCode() {
+		return Objects.hash(deckId);
+	}
 }

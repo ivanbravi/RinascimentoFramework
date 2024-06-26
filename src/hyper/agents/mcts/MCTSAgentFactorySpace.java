@@ -28,9 +28,17 @@ public class MCTSAgentFactorySpace extends HeuristicAgentFactorySpace {
 		agent.epsilon				=  (double)params[6].getValue(solution[6]);
 		agent.recommendationType	= ((Double)params[7].getValue(solution[7])).intValue();
 		agent.rollWithOpponents		= (boolean)params[8].getValue(solution[8]);
+		agent.adaptiveRollout       = (double)params[10].getValue(solution[9]);
+		agent.progressiveWidening       = (double)params[10].getValue(solution[10]);
+		agent.useAMAFStatistics       = (boolean)params[11].getValue(solution[11]);
 
 		agent.setName(getAgentType());
 		agent.setHeuristic(getHeuristic());
+
+
+		if (agent.useAMAFStatistics){
+			agent.setName("RAVE");
+		}
 
 		return agent;
 	}

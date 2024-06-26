@@ -7,7 +7,7 @@ import log.entities.action.Action;
 
 import java.util.HashMap;
 
-public  class BuyBoardCard extends BuyCard {
+public class BuyBoardCard extends BuyCard {
 
 	public BuyBoardCard(int playerId, int deckId, int cardPosition) {
 		super(playerId,deckId,cardPosition);
@@ -64,5 +64,10 @@ public  class BuyBoardCard extends BuyCard {
 		System.out.println(s.toString());
 		a.perform(s);
 		System.out.println(s.toString());
+	}
+
+	@Override
+	public int hashCode() {
+		return super.hashCode() * 37;
 	}
 }

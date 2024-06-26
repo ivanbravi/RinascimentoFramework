@@ -104,6 +104,10 @@ public class BudgetExtendedGameState implements EventLoggerDispatcher {
 		return state;
 	}
 
+	public Budget getBudget() {
+		return budget;
+	}
+
 	@Override
 	public EventLogger getLogger(String name) {
 		return this.state.eventLogger(name);

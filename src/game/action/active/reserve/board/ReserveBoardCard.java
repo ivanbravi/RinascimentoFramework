@@ -6,6 +6,7 @@ import game.state.State;
 import log.entities.action.Action;
 
 import java.util.HashMap;
+import java.util.Objects;
 
 public class ReserveBoardCard extends AbstractReserveCard {
 
@@ -102,5 +103,10 @@ public class ReserveBoardCard extends AbstractReserveCard {
 	@Override
 	public String toString() {
 		return "[Reserve Board Card] "+super.toString()+"\n\t[" +deckId+ "," +cardPosition+ "]";
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(deckId, cardPosition);
 	}
 }

@@ -122,4 +122,8 @@ public class PickCoins extends PlayableAction {
 		return "["+actionName()+"] " + super.toString() + "\n\t" + Arrays.toString(pattern);
 	}
 
+	@Override
+	public int hashCode() {
+		return Arrays.hashCode(pattern);
+	}
 }

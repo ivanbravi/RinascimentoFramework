@@ -103,6 +103,11 @@ public class PickSameCoins extends PickCoins {
 	}
 
 	@Override
+	public int hashCode() {
+		return super.hashCode() * 13;
+	}
+
+	@Override
 	public Action getActionLog() {
 		return new Action(actionName(), "P"+playerId, new HashMap<String, Object>(){{put("pattern",pattern);}});
 	}

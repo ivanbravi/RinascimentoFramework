@@ -77,6 +77,11 @@ public class PickDifferentCoins extends PickCoins {
 		return "Pick Different Coins";
 	}
 
+	@Override
+	public int hashCode() {
+		return super.hashCode() * 7;
+	}
+
 	public static void main(String[] args){
 		PickDifferentCoins a1 = new PickDifferentCoins(0,new int[]{0,1,1,0,0});
 		PickDifferentCoins a2 = new PickDifferentCoins(0,new int[]{0,1,1,0,0});

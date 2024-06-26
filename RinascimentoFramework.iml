@@ -7,10 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="ntbea" level="project" />
-    <orderEntry type="library" exported="" name="mapelites" level="project" />
-    <orderEntry type="library" exported="" name="lib" level="project" />
-    <orderEntry type="library" exported="" name="neuroph" level="project" />
-    <orderEntry type="library" exported="" name="Processing3" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="mapelites" level="project" />
+    <orderEntry type="library" name="ntbea" level="project" />
   </component>
 </module>

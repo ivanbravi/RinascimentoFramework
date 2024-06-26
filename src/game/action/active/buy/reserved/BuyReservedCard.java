@@ -75,4 +75,8 @@ public class BuyReservedCard extends BuyCard {
 		System.out.println(s.toString());
 	}
 
+	@Override
+	public int hashCode() {
+		return super.hashCode() * 31;
+	}
 }

@@ -5,6 +5,8 @@ import game.state.Deck;
 import game.state.PlayerState;
 import game.state.State;
 
+import java.util.Objects;
+
 public abstract class BuyCard extends PlayableAction {
 
 	protected int deckId;
@@ -116,5 +118,10 @@ public abstract class BuyCard extends PlayableAction {
 		}
 
 		return super.perform(gs);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(deckId, cardPosition);
 	}
 }

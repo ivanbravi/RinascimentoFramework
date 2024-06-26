@@ -13,6 +13,7 @@ import players.ai.factory.SimpleAgentFactory;
 
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.Random;
 
 public class MCTSRootNode extends MCTSNode {
@@ -30,6 +31,9 @@ public class MCTSRootNode extends MCTSNode {
 	private double epsilon;
 	private int recommendationType;
 	private boolean rollWithOpponents;
+	private double progressiveWideningFactor;
+	private boolean useAMAFStatistics;
+	private HashSet<Action> amafPlays;
 	/*--------------------------*/
 
 	Heuristic h;
@@ -102,11 +106,21 @@ public class MCTSRootNode extends MCTSNode {
 		this.rollWithOpponents = rollWithOpponents;
 		return this;
 	}
+	public MCTSRootNode setProgressiveWideningFactor(double progressiveWideningFactor){
+		this.progressiveWideningFactor = progressiveWideningFactor;
+		return this;
+	}
+
+	public MCTSRootNode setUseAMAFStatistics(boolean useAMAFStatistics){
+		this.useAMAFStatistics = useAMAFStatistics;
+		return this;
+	}
 
 	public void search(BudgetExtendedGameState originalState, int playerID){
 		setupOpponents(originalState.getPlayersCount(),playerID);
 		try{
 			while(true){
+				amafPlays = new HashSet<>();
 				BudgetExtendedGameState state = originalState.copy();
 				MCTSNode sNode = treePolicy(state, playerID);
 				rollout(state,rolloutDepth-sNode.depth,playerID);
@@ -121,11 +135,19 @@ public class MCTSRootNode extends MCTSNode {
 	private void backUp(MCTSNode node, double delta){
 		while(node!=null){
 			node.addValue(delta);
+			// Update AMAF Stats
+			for (MCTSNode child : node.children) {
+				Action action = child.action;
+				if (action != null && amafPlays.contains(action)) {
+					child.addRaveValue(delta);
+				}
+			}
 			node = node.parent;
 		}
 	}
 
 	private void rollout(BudgetExtendedGameState state, int actions, int playerID){
+		MCTSNode toExpand = this;
 		while(actions>0 && !state.isGameOver()){
 			Action rndAction =  state.getRandomAction(playerID);
 			if(rollWithOpponents){
@@ -161,7 +183,13 @@ public class MCTSRootNode extends MCTSNode {
 			}
 
 			if(VERBOSE && V_DETAIL==2)System.out.println("UCB");
-			nextNode = uct(currNode);
+
+			if (!useAMAFStatistics) {
+				nextNode = uct(currNode);
+			} else {
+				nextNode = rave(currNode);
+			}
+
 			rollFullTurn(state,nextNode.action,playerID);
 
 			currNode = nextNode;
@@ -172,7 +200,8 @@ public class MCTSRootNode extends MCTSNode {
 	private MCTSNode expand(MCTSNode toExpand, BudgetExtendedGameState state, int playerID){
 		double best = -1;
 		MCTSNode nextNode = null;
-		for(int i=0; i<progressionSize; i++) {
+		int numChildNodesToExpand = calculateNumChildNodesToExpand(toExpand, state);
+		for(int i=0; i<numChildNodesToExpand; i++) {
 			Action newAction = state.getRandomAction(playerID);
 
 			if(newAction==null){
@@ -193,6 +222,16 @@ public class MCTSRootNode extends MCTSNode {
 		return nextNode;
 	}
 
+	private int calculateNumChildNodesToExpand(MCTSNode parent, BudgetExtendedGameState state) {
+		double t = (state.getBudget().used() * 100.0);
+		double a =.5;
+		if (progressiveWideningFactor > 0) {
+			return (int) (progressiveWideningFactor * Math.pow(t, a));
+		} else {
+			return progressionSize;
+		}
+	}
+
 	private MCTSNode uct(MCTSNode node){
 		MCTSNode child = null;
 
@@ -208,11 +247,37 @@ public class MCTSRootNode extends MCTSNode {
 		return child;
 	}
 
+	private MCTSNode rave(MCTSNode node) {
+		MCTSNode child = null;
+
+		double bestRave = Double.NEGATIVE_INFINITY;
+
+		for(MCTSNode currChild: node.children){
+			double currRave = rave_value(currChild);
+			if(currRave>bestRave) {
+				bestRave = currRave;
+				child = currChild;
+			}
+		}
+
+		return child;
+	}
+
 	private double ucb(MCTSNode node){
 		return node.value/(node.n+this.epsilon) +
 				c * Math.sqrt(Math.log(
 						(node.parent.n) / (node.n+this.epsilon)
 				));
+	}
+
+	private double rave_value(MCTSNode node) {
+		double beta = node.nRave / (node.nRave + node.n + 1e-5 * node.nRave * node.n);
+		double q = node.value / node.n;
+		if (node.n == 0) {
+			q = 1.0;
+		}
+		double qTilde = node.qRave / node.nRave;
+		return (1-beta) * q + beta * qTilde;
 	}
 
 	private void setupOpponents(int players, int playerID){
@@ -233,9 +298,11 @@ public class MCTSRootNode extends MCTSNode {
 	}
 
 	public void rollFullTurn(BudgetExtendedGameState state,Action myAction, int playerID){
-
 		int pID = (playerID+1)%state.getPlayersCount();
 		state.perform(myAction);
+		if (myAction != null) {
+			amafPlays.add(myAction);
+		}
 
 		while (pID!=playerID){
 			Action a = opponents[pID].getActions(state.copyForPlayerAndSplit(pID,opponentBudgetRatio),pID)[0];

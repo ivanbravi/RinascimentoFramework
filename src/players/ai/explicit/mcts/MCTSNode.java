@@ -13,6 +13,8 @@ public class MCTSNode {
 	protected int n;
 	protected int depth;
 	protected double value;
+	protected double nRave;
+	protected double qRave;
 
 	public MCTSNode(Action action, MCTSNode parent){
 		this.action = action;
@@ -39,6 +41,11 @@ public class MCTSNode {
 	public void addValue(double value){
 		n++;
 		this.value+=value;
+	}
+
+	public void addRaveValue(double value){
+		nRave++;
+		this.qRave+=value;
 	}
 
 	@Override
